@@ -30,8 +30,9 @@
     "@graphql-tools/graphql-file-loader": "^8.0.1",
     "@mdx-js/react": "^1.6.22",
     "@mui/material": "^5.14.8",
-    "autoprefixer": "^10.4.18",
-    "axios": "^1.16.0",
+    "autoprefixer": "^10.4.18", dependabot/npm_and_yarn/npm_and_yarn-aa935e5de0
+    "axios": "^1.15.0",
+    "axios": "^1.16.0", main
     "clsx": "^2.1.0",
     "copy-text-to-clipboard": "^3.2.0",
     "docusaurus-plugin-includes": "^1.1.5",
