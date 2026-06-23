@@ -28,10 +28,17 @@
     "@emotion/styled": "^11.11.0",
     "@graphql-markdown/docusaurus": "^1.24.0",
     "@graphql-tools/graphql-file-loader": "^8.0.1",
-    "@mdx-js/react": "^1.6.22",
+    "@mdx-js/react": "^1.6.22", dependabot/npm_and_yarn/npm_and_yarn-5d09fa0434
     "@mui/material": "^5.14.8",
     "autoprefixer": "^10.4.18",
     "axios": "^1.15.0",
+    "@mui/material": "^5.14.8", dependabot/npm_and_yarn/npm_and_yarn-3bd2ba5a1b
+    "autoprefixer": "^10.4.18", dependabot/npm_and_yarn/npm_and_yarn-1ad2bacbea
+    "axios": "^1.15.0",
+    "axios": "^1.13.5",
+    "autoprefixer": "^10.4.18", dependabot/npm_and_yarn/npm_and_yarn-aa935e5de0
+    "axios": "^1.15.0",
+    "axios": "^1.16.0", main main main main
     "clsx": "^2.1.0",
     "copy-text-to-clipboard": "^3.2.0",
     "docusaurus-plugin-includes": "^1.1.5",
@@ -45,7 +52,7 @@
     "lodash": "^4.18.1",
     "markdown-to-jsx": "^7.4.3",
     "nightOwl": "link:prism-react-renderer/themes/nightOwl",
-    "postcss": "^8.4.37",
+    "postcss": "^8.5.10",
     "posthog-docusaurus": "^2.0.0",
     "prism-react-renderer": "^2.3.1",
     "prismjs": "^1.30.0",
