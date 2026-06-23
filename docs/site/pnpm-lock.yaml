@@ -20,10 +20,10 @@ importers:
         version: 3.1.1(@docusaurus/types@3.1.1(acorn@8.15.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(acorn@8.15.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@4.9.5)
       '@docusaurus/preset-classic': dependabot/npm_and_yarn/npm_and_yarn-3bd2ba5a1b
         specifier: 3.1.1
-        version: 3.1.1(@algolia/client-search@5.19.0)(@types/react@19.2.14)(acorn@8.15.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@4.9.5)
+        version: 3.1.1(@algolia/client-search@5.19.0)(@types/react@19.2.14)(acorn@8.15.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@4.9.5) dependabot/npm_and_yarn/npm_and_yarn-1ad2bacbea
         specifier: 3.1.1 dependabot/npm_and_yarn/npm_and_yarn-aa935e5de0
         version: 3.1.1(@algolia/client-search@5.19.0)(@types/react@19.2.14)(acorn@8.15.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@4.9.5)
-        version: 3.1.1(@algolia/client-search@5.19.0)(@types/react@19.2.17)(acorn@8.15.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@4.9.5) main main
+        version: 3.1.1(@algolia/client-search@5.19.0)(@types/react@19.2.17)(acorn@8.15.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@4.9.5) main main main
       '@docusaurus/remark-plugin-npm2yarn':
         specifier: 3.1.1
         version: 3.1.1
@@ -35,7 +35,10 @@ importers:
         version: 3.1.1(acorn@8.15.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@4.9.5)
       '@emotion/react': dependabot/npm_and_yarn/npm_and_yarn-3bd2ba5a1b
         specifier: ^11.11.4
-        version: 11.14.0(@types/react@19.2.14)(react@18.3.1)
+        version: 11.14.0(@types/react@19.2.14)(react@18.3.1 dependabot/npm_and_yarn/npm_and_yarn-1ad2bacbea
+      '@emotion/styled':
+        specifier: ^11.11.0
+        version: 11.14.0(@emotion/react@11.14.0(@types/react@19.2.14)(react@18.3.1))(@types/react@19.2.14)(react@18.3.1)
       '@emotion/styled':
         specifier: ^11.11.0
         version: 11.14.0(@emotion/react@11.14.0(@types/react@19.2.14)(react@18.3.1))(@types/react@19.2.14)(react@18.3.1)
@@ -47,7 +50,7 @@ importers:
         version: 11.14.0(@types/react@19.2.17)(react@18.3.1)
       '@emotion/styled':
         specifier: ^11.11.0
-        version: 11.14.0(@emotion/react@11.14.0(@types/react@19.2.17)(react@18.3.1))(@types/react@19.2.17)(react@18.3.1) main main
+        version: 11.14.0(@emotion/react@11.14.0(@types/react@19.2.17)(react@18.3.1))(@types/react@19.2.17)(react@18.3.1) main main main
       '@graphql-markdown/docusaurus':
         specifier: ^1.24.0
         version: 1.26.4(@docusaurus/logger@3.7.0)(acorn@8.15.0)(graphql-config@5.1.3(@types/node@22.10.5)(graphql@16.10.0)(typescript@4.9.5))(graphql@16.10.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
@@ -63,7 +66,9 @@ importers:
       autoprefixer:
         specifier: ^10.4.18
         version: 10.4.20(postcss@8.4.49)
-      axios:
+      axios: dependabot/npm_and_yarn/npm_and_yarn-1ad2bacbea
+        specifier: ^1.15.0
+        version: 1.15.0
         specifier: ^1.13.5
         version: 1.13.5
         specifier: ^5.14.8 dependabot/npm_and_yarn/npm_and_yarn-aa935e5de0
@@ -76,7 +81,7 @@ importers:
         specifier: ^1.15.0
         version: 1.15.0
         specifier: ^1.16.0
-        version: 1.16.0 main main
+        version: 1.16.0 main main main
       clsx:
         specifier: ^2.1.0
         version: 2.1.1
@@ -927,6 +932,10 @@ packages:
     resolution: {integrity: sha512-JiDShH45zKHWyGe4ZNVRrCjBz8Nh9TMmZG1kh4QTK8hCBTWBi8Da+i7s1fJw7/lYpM4ccepSNfqzZ/QvABBi5g==}
   '@babel/runtime@7.29.7':
     resolution: {integrity: sha512-Nq8OhGWiZIZGV6hLHoyAKLLcJihP/xFeBMGJoUrxTX2psI8dCifzLhZISFb+VWS3wFMRDmCGw5R+dOySCqPLhw==} main
+    engines: {node: '>=6.9.0'}
+
+  '@babel/runtime@7.29.2':
+    resolution: {integrity: sha512-JiDShH45zKHWyGe4ZNVRrCjBz8Nh9TMmZG1kh4QTK8hCBTWBi8Da+i7s1fJw7/lYpM4ccepSNfqzZ/QvABBi5g==}
     engines: {node: '>=6.9.0'}
 
   '@babel/runtime@7.29.2':
@@ -1902,12 +1911,12 @@ packages:
     resolution: {integrity: sha512-UavfHguIjnnuq9O67uXfgy/h3SRJbidAYvNjLceB+2RIKVRBzVsh0QO+Pw6BCSQqFS9xwzKfwstXx0m6AbAREA==}
 
   '@types/react@19.2.14':
-    resolution: {integrity: sha512-ilcTH/UniCkMdtexkoCN0bI7pMcJDvmQFPvuPvmEaYA/NSfFTAgdUSLAoVjaRJm7+6PvcM+q1zYOwS4wTYMF9w==}
+    resolution: {integrity: sha512-ilcTH/UniCkMdtexkoCN0bI7pMcJDvmQFPvuPvmEaYA/NSfFTAgdUSLAoVjaRJm7+6PvcM+q1zYOwS4wTYMF9w==} dependabot/npm_and_yarn/npm_and_yarn-1ad2bacbea
     resolution: {integrity: sha512-UavfHguIjnnuq9O67uXfgy/h3SRJbidAYvNjLceB+2RIKVRBzVsh0QO+Pw6BCSQqFS9xwzKfwstXx0m6AbAREA==} dependabot/npm_and_yarn/npm_and_yarn-aa935e5de0
   '@types/react@19.2.14':
     resolution: {integrity: sha512-ilcTH/UniCkMdtexkoCN0bI7pMcJDvmQFPvuPvmEaYA/NSfFTAgdUSLAoVjaRJm7+6PvcM+q1zYOwS4wTYMF9w==}
   '@types/react@19.2.17':
-    resolution: {integrity: sha512-MXfmqaVPEVgkBT/aY0aGCkRWWtByiYQXo3xdQ8r5RzuFrPiRn8Gar2tQdXSUQ2GKV3bkXckek89V8wQBY2Q/Aw==} main main
+    resolution: {integrity: sha512-MXfmqaVPEVgkBT/aY0aGCkRWWtByiYQXo3xdQ8r5RzuFrPiRn8Gar2tQdXSUQ2GKV3bkXckek89V8wQBY2Q/Aw==} main main main
 
   '@types/responselike@1.0.3':
     resolution: {integrity: sha512-H/+L+UkTV33uf49PH5pCAUBVPNj2nDBXTN+qS1dOwyyg24l3CcicicCA7ca+HMvJBZcFgl5r8e+RR6elsb4Lyw==}
@@ -2149,15 +2158,16 @@ packages:
       postcss: ^8.1.0
 
   axios@0.25.0: dependabot/npm_and_yarn/npm_and_yarn-3bd2ba5a1b
-    resolution: {integrity: sha512-cD8FOb0tRH3uuEe6+evtAbgJtfxr7ly3fQjYcMcuPlgkwVS9xboaVIpcDV+cYQe+yGykgwZCs1pzjntcGa6l5g==}
-
+    resolution: {integrity: sha512-cD8FOb0tRH3uuEe6+evtAbgJtfxr7ly3fQjYcMcuPlgkwVS9xboaVIpcDV+cYQe+yGykgwZCs1pzjntcGa6l5g==} dependabot/npm_and_yarn/npm_and_yarn-1ad2bacbea
+  axios@1.15.0:
+    resolution: {integrity: sha512-wWyJDlAatxk30ZJer+GeCWS209sA42X+N5jU2jy6oHTp7ufw8uzUTVFBX9+wTfAlhiJXGS0Bq7X6efruWjuK9Q==
   axios@1.13.5:
     resolution: {integrity: sha512-cz4ur7Vb0xS4/KUN0tPWe44eqxrIu31me+fbang3ijiNscE129POzipJJA6zniq2C/Z6sJCjMimjS8Lc/GAs8Q==}
     resolution: {integrity: sha512-cD8FOb0tRH3uuEe6+evtAbgJtfxr7ly3fQjYcMcuPlgkwVS9xboaVIpcDV+cYQe+yGykgwZCs1pzjntcGa6l5g==} dependabot/npm_and_yarn/npm_and_yarn-aa935e5de0
   axios@1.15.0:
     resolution: {integrity: sha512-wWyJDlAatxk30ZJer+GeCWS209sA42X+N5jU2jy6oHTp7ufw8uzUTVFBX9+wTfAlhiJXGS0Bq7X6efruWjuK9Q==}
   axios@1.16.0:
-    resolution: {integrity: sha512-6hp5CwvTPlN2A31g5dxnwAX0orzM7pmCRDLnZSX772mv8WDqICwFjowHuPs04Mc8deIld1+ejhtaMn5vp6b+1w==} main main
+    resolution: {integrity: sha512-6hp5CwvTPlN2A31g5dxnwAX0orzM7pmCRDLnZSX772mv8WDqICwFjowHuPs04Mc8deIld1+ejhtaMn5vp6b+1w==} main main main
 
   babel-loader@8.4.1:
     resolution: {integrity: sha512-nXzRChX+Z1GoE6yWavBQg6jDslyFF3SDjl2paADuoQtQW10JqShJt62R6eJQ5m/pjJFDT8xgKIWSP85OY8eXeA==}
@@ -2245,7 +2255,8 @@ packages:
     engines: {node: ^12.20.0 || ^14.13.1 || >=16.0.0}
 
   boxen@7.1.1:
-    resolution: {integrity: sha512-2hCgjEmP8YLWQ130n2FerGv7rYpfBmnmp9Uy2Le1vge6X3gZIfSmEzP5QTDElFxcvVcXlEn8Aq6MU/PZygIOog==}
+    resolution: {integrity: sha512-2hCgjEmP8YLWQ130n2FerGv7rYpfBmnmp9Uy2Le1vge6X3gZIfSmEzP5QTDElFxcvVcXlEn8Aq6MU/PZygIOog==} dependabot/npm_and_yarn/npm_and_yarn-1ad2bacbea
+    engines: {node: '>=14.16'}
     engines: {node: '>=14.16'} dependabot/npm_and_yarn/npm_and_yarn-aa935e5de0
   brace-expansion@1.1.13:
     resolution: {integrity: sha512-9ZLprWS6EENmhEOpjCYW2c8VkmOvckIJZfkr7rBW6dObmfgJ/L1GpSYW5Hpo9lDz4D1+n0Ckz8rU7FwHDQiG/w==} dependabot/npm_and_yarn/npm_and_yarn-3bd2ba5a1b
@@ -2255,12 +2266,13 @@ packages:
   brace-expansion@2.0.3:
     resolution: {integrity: sha512-MCV/fYJEbqx68aE58kv2cA/kiky1G8vux3OR6/jbS+jIMe/6fJWa0DTzJU7dqijOWYwHi1t29FlfYI9uytqlpA==}
   brace-expansion@2.0.3:
-    resolution: {integrity: sha512-MCV/fYJEbqx68aE58kv2cA/kiky1G8vux3OR6/jbS+jIMe/6fJWa0DTzJU7dqijOWYwHi1t29FlfYI9uytqlpA==}
+    resolution: {integrity: sha512-MCV/fYJEbqx68aE58kv2cA/kiky1G8vux3OR6/jbS+jIMe/6fJWa0DTzJU7dqijOWYwHi1t29FlfYI9uytqlpA==} main
   brace-expansion@1.1.14:
     resolution: {integrity: sha512-MWPGfDxnyzKU7rNOW9SP/c50vi3xrmrua/+6hfPbCS2ABNWfx24vPidzvC7krjU/RTo235sV776ymlsMtGKj8g==}
 
-  brace-expansion@2.1.0:
-    resolution: {integrity: sha512-TN1kCZAgdgweJhWWpgKYrQaMNHcDULHkWwQIspdtjV4Y5aurRdZpjAqn6yX3FPqTA9ngHCc4hJxMAMgGfve85w==} main main
+  brace-expansion@2.1.0: dependabot/npm_and_yarn/npm_and_yarn-1ad2bacbea
+    resolution: {integrity: sha512-TN1kCZAgdgweJhWWpgKYrQaMNHcDULHkWwQIspdtjV4Y5aurRdZpjAqn6yX3FPqTA9ngHCc4hJxMAMgGfve85w==}
+    resolution: {integrity: sha512-TN1kCZAgdgweJhWWpgKYrQaMNHcDULHkWwQIspdtjV4Y5aurRdZpjAqn6yX3FPqTA9ngHCc4hJxMAMgGfve85w==} main main main
 
   braces@3.0.3:
     resolution: {integrity: sha512-yQbXgO/OSZVD2IsiLlro+7Hf6Q18EJrKSEsdoMzKePKXct3gvD8oLcOQdIzGupr5Fj+EDe8gO/lxc1BzfMpxvA==}
@@ -3035,8 +3047,9 @@ packages:
 
   domhandler@5.0.3:
     resolution: {integrity: sha512-cgwlv/1iFQiFnU96XXgROh8xTeetsnJiDsTc7TYCLFd9+/WNkIqPTxiM/8pSd8VIrhXGTf1Ny1q1hquVqDJB5w=} dependabot/npm_and_yarn/npm_and_yarn-aa935e5de0
-    engines: {node: '>= 4'}
-
+    engines: {node: '>= 4'} dependabot/npm_and_yarn/npm_and_yarn-1ad2bacbea
+  dompurify@3.4.0:
+    resolution: {integrity: sha512-nolgK9JcaUXMSmW+j1yaSvaEaoXYHwWyGJlkoCTghc97KgGDDSnpoU/PlEnw63Ah+TGKFOyY+X5LnxaWbCSfXg==
   dompurify@3.3.3: dependabot/npm_and_yarn/npm_and_yarn-3bd2ba5a1b
     resolution: {integrity: sha512-Oj6pzI2+RqBfFG+qOaOLbFXLQ90ARpcGG6UePL82bJLtdsa6CYJD7nmiU8MW9nQNOtCHV3lZ/Bzq1X0QYbBZCA==}
     resolution: {integrity: sha512-Oj6pzI2+RqBfFG+qOaOLbFXLQ90ARpcGG6UePL82bJLtdsa6CYJD7nmiU8MW9nQNOtCHV3lZ/Bzq1X0QYbBZCA=}
@@ -3044,7 +3057,7 @@ packages:
   dompurify@3.4.0:
     resolution: {integrity: sha512-nolgK9JcaUXMSmW+j1yaSvaEaoXYHwWyGJlkoCTghc97KgGDDSnpoU/PlEnw63Ah+TGKFOyY+X5LnxaWbCSfXg==}
   dompurify@3.4.1:
-    resolution: {integrity: sha512-JahakDAIg1gyOm7dlgWSDjV4n7Ip2PKR55NIT6jrMfIgLFgWo81vdr1/QGqWtFNRqXP9UV71oVePtjqS2ebnPw==} main main main
+    resolution: {integrity: sha512-JahakDAIg1gyOm7dlgWSDjV4n7Ip2PKR55NIT6jrMfIgLFgWo81vdr1/QGqWtFNRqXP9UV71oVePtjqS2ebnPw==} main main main main
 
   domutils@2.8.0:
     resolution: {integrity: sha512-w96Cjofp72M5IIhpjgobBimYEfoPjx1Vx0BSX9P30WBdZW2WIKU0T1Bd0kz2eNZ9ikjKgHbEyKx8BB6H1L3h3A==}
@@ -6097,15 +6110,16 @@ packages:
     hasBin: true
 
   undici-types@6.20.0: dependabot/npm_and_yarn/npm_and_yarn-3bd2ba5a1b
-    resolution: {integrity: sha512-Ny6QZ2Nju20vw1SRHe3d9jVu6gJ+4e3+MMpqu7pqE5HT6WsTSlce++GQmK5UXS8mzV8DSYHrQH+Xrf2jVcuKNg==}
-
+    resolution: {integrity: sha512-Ny6QZ2Nju20vw1SRHe3d9jVu6gJ+4e3+MMpqu7pqE5HT6WsTSlce++GQmK5UXS8mzV8DSYHrQH+Xrf2jVcuKNg==} dependabot/npm_and_yarn/npm_and_yarn-1ad2bacbea
+  undici@6.25.0:
+    resolution: {integrity: sha512-ZgpWDC5gmNiuY9CnLVXEH8rl50xhRCuLNA97fAUnKi8RRuV4E6KG31pDTsLVUKnohJE0I3XDrTeEydAXRw47xg==}
   undici@6.24.1:
     resolution: {integrity: sha512-sC+b0tB1whOCzbtlx20fx3WgCXwkW627p4EA9uM+/tNNPkSS+eSEld6pAs9nDv7WbY1UUljBMYPtu9BCOrCWKA==}
     resolution: {integrity: sha512-Ny6QZ2Nju20vw1SRHe3d9jVu6gJ+4e3+MMpqu7pqE5HT6WsTSlce++GQmK5UXS8mzV8DSYHrQH+Xrf2jVcuKNg==} dependabot/npm_and_yarn/npm_and_yarn-aa935e5de0
   undici@6.24.1:
     resolution: {integrity: sha512-sC+b0tB1whOCzbtlx20fx3WgCXwkW627p4EA9uM+/tNNPkSS+eSEld6pAs9nDv7WbY1UUljBMYPtu9BCOrCWKA==}
   undici@6.25.0:
-    resolution: {integrity: sha512-ZgpWDC5gmNiuY9CnLVXEH8rl50xhRCuLNA97fAUnKi8RRuV4E6KG31pDTsLVUKnohJE0I3XDrTeEydAXRw47xg==} main main
+    resolution: {integrity: sha512-ZgpWDC5gmNiuY9CnLVXEH8rl50xhRCuLNA97fAUnKi8RRuV4E6KG31pDTsLVUKnohJE0I3XDrTeEydAXRw47xg==} main main main
     engines: {node: '>=18.17'}
 
   unherit@1.1.3:
@@ -7545,6 +7559,8 @@ snapshots:
 
   '@babel/runtime@7.29.2': {}
 
+  '@babel/runtime@7.29.2': {}
+
   '@babel/template@7.25.9':
     dependencies:
       '@babel/code-frame': 7.26.2
@@ -7587,20 +7603,20 @@ snapshots:
   '@discoveryjs/json-ext@0.5.7': {} dependabot/npm_and_yarn/npm_and_yarn-3bd2ba5a1b
   '@docsearch/css@3.8.2': {}
 
-  '@docsearch/react@3.8.2(@algolia/client-search@5.19.0)(@types/react@19.2.14)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
+  '@docsearch/react@3.8.2(@algolia/client-search@5.19.0)(@types/react@19.2.14)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)': dependabot/npm_and_yarn/npm_and_yarn-1ad2bacbea
   '@docsearch/css@3.8.2': { dependabot/npm_and_yarn/npm_and_yarn-aa935e5de0
   '@docsearch/react@3.8.2(@algolia/client-search@5.19.0)(@types/react@19.2.14)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
-  '@docsearch/react@3.8.2(@algolia/client-search@5.19.0)(@types/react@19.2.17)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)': main main
+  '@docsearch/react@3.8.2(@algolia/client-search@5.19.0)(@types/react@19.2.17)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)': main main main
     dependencies:
       '@algolia/autocomplete-core': 1.17.7(@algolia/client-search@5.19.0)(algoliasearch@5.19.0)
       '@algolia/autocomplete-preset-algolia': 1.17.7(@algolia/client-search@5.19.0)(algoliasearch@5.19.0)
       '@docsearch/css': 3.8.2
       algoliasearch: 5.19.0 dependabot/npm_and_yarn/npm_and_yarn-3bd2ba5a1b
     optionalDependencies:
-      '@types/react': 19.2.14
+      '@types/react': 19.2.14 dependabot/npm_and_yarn/npm_and_yarn-1ad2bacbea
     optionalDependencies: dependabot/npm_and_yarn/npm_and_yarn-aa935e5de0
       '@types/react': 19.2.14
-      '@types/react': 19.2.17 main main
+      '@types/react': 19.2.17 main main main
       react: 18.3.1
       react-dom: 18.3.1(react@18.3.1)
     transitivePeerDependencies:
@@ -8181,10 +8197,10 @@ snapshots:
       - vue-template-compiler dependabot/npm_and_yarn/npm_and_yarn-3bd2ba5a1b
       - webpack-cli
 
-  '@docusaurus/preset-classic@3.1.1(@algolia/client-search@5.19.0)(@types/react@19.2.14)(acorn@8.15.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@4.9.5)':
+  '@docusaurus/preset-classic@3.1.1(@algolia/client-search@5.19.0)(@types/react@19.2.14)(acorn@8.15.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@4.9.5)': dependabot/npm_and_yarn/npm_and_yarn-1ad2bacbea
       - webpack-cli dependabot/npm_and_yarn/npm_and_yarn-aa935e5de0
   '@docusaurus/preset-classic@3.1.1(@algolia/client-search@5.19.0)(@types/react@19.2.14)(acorn@8.15.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@4.9.5)':
-  '@docusaurus/preset-classic@3.1.1(@algolia/client-search@5.19.0)(@types/react@19.2.17)(acorn@8.15.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@4.9.5)': main main
+  '@docusaurus/preset-classic@3.1.1(@algolia/client-search@5.19.0)(@types/react@19.2.17)(acorn@8.15.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@4.9.5)': main main main
     dependencies:
       '@docusaurus/core': 3.1.1(@docusaurus/types@3.1.1(acorn@8.15.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(acorn@8.15.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@4.9.5)
       '@docusaurus/plugin-content-blog': 3.1.1(acorn@8.15.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@4.9.5)
@@ -8197,14 +8213,14 @@ snapshots:
       '@docusaurus/plugin-sitemap': 3.1.1(acorn@8.15.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@4.9.5)
       '@docusaurus/theme-classic': 3.1.1(@types/react@19.2.14)(acorn@8.15.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@4.9.5)
       '@docusaurus/theme-common': 3.1.1(@docusaurus/types@3.1.1(acorn@8.15.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(acorn@8.15.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@4.9.5)
-      '@docusaurus/theme-search-algolia': 3.1.1(@algolia/client-search@5.19.0)(@docusaurus/types@3.1.1(acorn@8.15.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@types/react@19.2.14)(acorn@8.15.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@4.9.5)
+      '@docusaurus/theme-search-algolia': 3.1.1(@algolia/client-search@5.19.0)(@docusaurus/types@3.1.1(acorn@8.15.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@types/react@19.2.14)(acorn@8.15.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@4.9.5) dependabot/npm_and_yarn/npm_and_yarn-1ad2bacbea
       '@docusaurus/plugin-sitemap': 3.1.1(acorn@8.15.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@4.9.5) dependabot/npm_and_yarn/npm_and_yarn-aa935e5de0
       '@docusaurus/theme-classic': 3.1.1(@types/react@19.2.14)(acorn@8.15.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@4.9.5)
       '@docusaurus/theme-common': 3.1.1(@docusaurus/types@3.1.1(acorn@8.15.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(acorn@8.15.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@4.9.5)
       '@docusaurus/theme-search-algolia': 3.1.1(@algolia/client-search@5.19.0)(@docusaurus/types@3.1.1(acorn@8.15.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@types/react@19.2.14)(acorn@8.15.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@4.9.5)
       '@docusaurus/theme-classic': 3.1.1(@types/react@19.2.17)(acorn@8.15.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@4.9.5)
       '@docusaurus/theme-common': 3.1.1(@docusaurus/types@3.1.1(acorn@8.15.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(acorn@8.15.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@4.9.5)
-      '@docusaurus/theme-search-algolia': 3.1.1(@algolia/client-search@5.19.0)(@docusaurus/types@3.1.1(acorn@8.15.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@types/react@19.2.17)(acorn@8.15.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@4.9.5) main main
+      '@docusaurus/theme-search-algolia': 3.1.1(@algolia/client-search@5.19.0)(@docusaurus/types@3.1.1(acorn@8.15.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@types/react@19.2.17)(acorn@8.15.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@4.9.5) main main main
       '@docusaurus/types': 3.1.1(acorn@8.15.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       react: 18.3.1
       react-dom: 18.3.1(react@18.3.1)
@@ -8232,10 +8248,10 @@ snapshots:
 
   '@docusaurus/react-loadable@5.5.2(react@18.3.1)': dependabot/npm_and_yarn/npm_and_yarn-3bd2ba5a1b
     dependencies:
-      '@types/react': 19.2.14
+      '@types/react': 19.2.14 dependabot/npm_and_yarn/npm_and_yarn-1ad2bacbea
     dependencies: dependabot/npm_and_yarn/npm_and_yarn-aa935e5de0
       '@types/react': 19.2.14
-      '@types/react': 19.2.17 main main
+      '@types/react': 19.2.17 main main main
       prop-types: 15.8.1
       react: 18.3.1
 
@@ -8254,10 +8270,10 @@ snapshots:
     transitivePeerDependencies: dependabot/npm_and_yarn/npm_and_yarn-3bd2ba5a1b
       - supports-color
 
-  '@docusaurus/theme-classic@3.1.1(@types/react@19.2.14)(acorn@8.15.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@4.9.5)':
+  '@docusaurus/theme-classic@3.1.1(@types/react@19.2.14)(acorn@8.15.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@4.9.5)': dependabot/npm_and_yarn/npm_and_yarn-1ad2bacbea
       - supports-color dependabot/npm_and_yarn/npm_and_yarn-aa935e5de0
   '@docusaurus/theme-classic@3.1.1(@types/react@19.2.14)(acorn@8.15.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@4.9.5)':
-  '@docusaurus/theme-classic@3.1.1(@types/react@19.2.17)(acorn@8.15.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@4.9.5)': main main
+  '@docusaurus/theme-classic@3.1.1(@types/react@19.2.17)(acorn@8.15.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@4.9.5)': main main main
     dependencies:
       '@docusaurus/core': 3.1.1(@docusaurus/types@3.1.1(acorn@8.15.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(acorn@8.15.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@4.9.5)
       '@docusaurus/mdx-loader': 3.1.1(@docusaurus/types@3.1.1(acorn@8.15.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(acorn@8.15.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
@@ -8271,10 +8287,10 @@ snapshots:
       '@docusaurus/utils': 3.1.1(@docusaurus/types@3.1.1(acorn@8.15.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))
       '@docusaurus/utils-common': 3.1.1(@docusaurus/types@3.1.1(acorn@8.15.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)) dependabot/npm_and_yarn/npm_and_yarn-3bd2ba5a1b
       '@docusaurus/utils-validation': 3.1.1(@docusaurus/types@3.1.1(acorn@8.15.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))
-      '@mdx-js/react': 3.1.0(@types/react@19.2.14)(react@18.3.1)
+      '@mdx-js/react': 3.1.0(@types/react@19.2.14)(react@18.3.1) dependabot/npm_and_yarn/npm_and_yarn-1ad2bacbea
       '@docusaurus/utils-validation': 3.1.1(@docusaurus/types@3.1.1(acorn@8.15.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)) dependabot/npm_and_yarn/npm_and_yarn-aa935e5de0
       '@mdx-js/react': 3.1.0(@types/react@19.2.14)(react@18.3.1)
-      '@mdx-js/react': 3.1.0(@types/react@19.2.17)(react@18.3.1) main main
+      '@mdx-js/react': 3.1.0(@types/react@19.2.17)(react@18.3.1) main main main
       clsx: 2.1.1
       copy-text-to-clipboard: 3.2.0
       infima: 0.2.0-alpha.43
@@ -8378,7 +8394,9 @@ snapshots:
       - vue-template-compiler dependabot/npm_and_yarn/npm_and_yarn-3bd2ba5a1b
       - webpack-cli
 
-  '@docusaurus/theme-search-algolia@3.1.1(@algolia/client-search@5.19.0)(@docusaurus/types@3.1.1(acorn@8.15.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@types/react@19.2.14)(acorn@8.15.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@4.9.5)':
+  '@docusaurus/theme-search-algolia@3.1.1(@algolia/client-search@5.19.0)(@docusaurus/types@3.1.1(acorn@8.15.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@types/react@19.2.14)(acorn@8.15.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@4.9.5)': dependabot/npm_and_yarn/npm_and_yarn-1ad2bacbea
+    dependencies:
+      '@docsearch/react': 3.8.2(@algolia/client-search@5.19.0)(@types/react@19.2.14)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
     dependencies:
       '@docsearch/react': 3.8.2(@algolia/client-search@5.19.0)(@types/react@19.2.14)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       - webpack-cli dependabot/npm_and_yarn/npm_and_yarn-aa935e5de0
@@ -8387,7 +8405,7 @@ snapshots:
       '@docsearch/react': 3.8.2(@algolia/client-search@5.19.0)(@types/react@19.2.14)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
   '@docusaurus/theme-search-algolia@3.1.1(@algolia/client-search@5.19.0)(@docusaurus/types@3.1.1(acorn@8.15.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(@types/react@19.2.17)(acorn@8.15.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@4.9.5)':
     dependencies:
-      '@docsearch/react': 3.8.2(@algolia/client-search@5.19.0)(@types/react@19.2.17)(react-dom@18.3.1(react@18.3.1))(react@18.3.1) main main
+      '@docsearch/react': 3.8.2(@algolia/client-search@5.19.0)(@types/react@19.2.17)(react-dom@18.3.1(react@18.3.1))(react@18.3.1) main mai main
       '@docusaurus/core': 3.1.1(@docusaurus/types@3.1.1(acorn@8.15.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(acorn@8.15.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@4.9.5)
       '@docusaurus/logger': 3.1.1
       '@docusaurus/plugin-content-docs': 3.1.1(acorn@8.15.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@4.9.5)
@@ -8628,10 +8646,10 @@ snapshots:
       '@emotion/memoize': 0.9.0 dependabot/npm_and_yarn/npm_and_yarn-3bd2ba5a1b
   '@emotion/memoize@0.9.0': {}
 
-  '@emotion/react@11.14.0(@types/react@19.2.14)(react@18.3.1)':
+  '@emotion/react@11.14.0(@types/react@19.2.14)(react@18.3.1)': dependabot/npm_and_yarn/npm_and_yarn-1ad2bacbea
   '@emotion/memoize@0.9.0': {} dependabot/npm_and_yarn/npm_and_yarn-aa935e5de0
   '@emotion/react@11.14.0(@types/react@19.2.14)(react@18.3.1)':
-  '@emotion/react@11.14.0(@types/react@19.2.17)(react@18.3.1)': main main
+  '@emotion/react@11.14.0(@types/react@19.2.17)(react@18.3.1)': main main main
     dependencies:
       '@babel/runtime': 7.28.6
       '@emotion/babel-plugin': 11.13.5
@@ -8643,10 +8661,10 @@ snapshots:
       hoist-non-react-statics: 3.3.2
       react: 18.3.1 dependabot/npm_and_yarn/npm_and_yarn-3bd2ba5a1b
     optionalDependencies:
-      '@types/react': 19.2.14
+      '@types/react': 19.2.1 dependabot/npm_and_yarn/npm_and_yarn-1ad2bacbe
     optionalDependencies: dependabot/npm_and_yarn/npm_and_yarn-aa935e5de0
       '@types/react': 19.2.17
-      '@types/react': 19.2.17 main main
+      '@types/react': 19.2.17 main main main
     transitivePeerDependencies:
       - supports-color
 
@@ -8664,7 +8682,7 @@ snapshots:
       '@babel/runtime': 7.28.6
       '@emotion/babel-plugin': 11.13.5
       '@emotion/is-prop-valid': 1.3.1
-      '@emotion/react': 11.14.0(@types/react@19.2.14)(react@18.3.1)
+      '@emotion/react': 11.14.0(@types/react@19.2.14)(react@18.3.1) dependabot/npm_and_yarn/npm_and_yarn-1ad2bacbea
   '@emotion/sheet@1.4.0': {} dependabot/npm_and_yarn/npm_and_yarn-aa935e5de0
   '@emotion/styled@11.14.0(@emotion/react@11.14.0(@types/react@19.2.14)(react@18.3.1))(@types/react@19.2.14)(react@18.3.1)':
   '@emotion/styled@11.14.0(@emotion/react@11.14.0(@types/react@19.2.17)(react@18.3.1))(@types/react@19.2.17)(react@18.3.1)': main
@@ -8673,16 +8691,16 @@ snapshots:
       '@emotion/babel-plugin': 11.13.5
       '@emotion/is-prop-valid': 1.3.1 dependabot/npm_and_yarn/npm_and_yarn-aa935e5de0
       '@emotion/react': 11.14.0(@types/react@19.2.14)(react@18.3.1)
-      '@emotion/react': 11.14.0(@types/react@19.2.17)(react@18.3.1) main main
+      '@emotion/react': 11.14.0(@types/react@19.2.17)(react@18.3.1) main main main
       '@emotion/serialize': 1.3.3
       '@emotion/use-insertion-effect-with-fallbacks': 1.2.0(react@18.3.1)
       '@emotion/utils': 1.4.2
       react: 18.3.1 dependabot/npm_and_yarn/npm_and_yarn-3bd2ba5a1b
     optionalDependencies:
-      '@types/react': 19.2.14
+      '@types/react': 19.2.14 dependabot/npm_and_yarn/npm_and_yarn-1ad2bacbea
     optionalDependencies: dependabot/npm_and_yarn/npm_and_yarn-aa935e5de0
       '@types/react': 19.2.14
-      '@types/react': 19.2.17 main main
+      '@types/react': 19.2.17 main main main
     transitivePeerDependencies:
       - supports-color
 
@@ -9064,7 +9082,12 @@ snapshots:
 
   '@mdx-js/react@1.6.22(react@18.3.1)':
     dependencies: dependabot/npm_and_yarn/npm_and_yarn-3bd2ba5a1b
-      react: 18.3.1
+      react: 18.3.1 dependabot/npm_and_yarn/npm_and_yarn-1ad2bacbea
+
+  '@mdx-js/react@3.1.0(@types/react@19.2.14)(react@18.3.1)':
+    dependencies:
+      '@types/mdx': 2.0.13
+      '@types/react': 19.2.14
       react: 18.3.1 dependabot/npm_and_yarn/npm_and_yarn-aa935e5de0 main
   '@mdx-js/react@3.1.0(@types/react@19.2.14)(react@18.3.1)':
     dependencies:
@@ -9073,7 +9096,7 @@ snapshots:
   '@mdx-js/react@3.1.0(@types/react@19.2.17)(react@18.3.1)':
     dependencies:
       '@types/mdx': 2.0.13
-      '@types/react': 19.2.1 main main
+      '@types/react': 19.2.1 main main main
       react: 18.3.1
 
   '@mdx-js/util@1.6.22': {}
@@ -9081,7 +9104,7 @@ snapshots:
   '@mixmark-io/domino@2.2.0': {} dependabot/npm_and_yarn/npm_and_yarn-3bd2ba5a1b
   '@mui/core-downloads-tracker@5.16.14': {}
 
-  '@mui/material@5.16.14(@emotion/react@11.14.0(@types/react@19.2.14)(react@18.3.1))(@emotion/styled@11.14.0(@emotion/react@11.14.0(@types/react@19.2.14)(react@18.3.1))(@types/react@19.2.14)(react@18.3.1))(@types/react@19.2.14)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
+  '@mui/material@5.16.14(@emotion/react@11.14.0(@types/react@19.2.14)(react@18.3.1))(@emotion/styled@11.14.0(@emotion/react@11.14.0(@types/react@19.2.14)(react@18.3.1))(@types/react@19.2.14)(react@18.3.1))(@types/react@19.2.14)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)': dependabot/npm_and_yarn/npm_and_yarn-1ad2bacbea
     dependencies:
       '@babel/runtime': 7.28.6
       '@mui/core-downloads-tracker': 5.16.14
@@ -9091,7 +9114,7 @@ snapshots:
       '@popperjs/core': 2.11.8
       '@types/react-transition-group': 4.4.12(@types/react@19.2.14)
   '@mui/core-downloads-tracker@5.16.14': {} dependabot/npm_and_yarn/npm_and_yarn-aa935e5de0
-  '@mui/material@5.16.14(@emotion/react@11.14.0(@types/react@19.2.14)(react@18.3.1))(@emotion/styled@11.14.0(@emotion/react@11.14.0(@types/react@19.2.14)(react@18.3.1))(@types/react@19.2.14)(react@18.3.1))(@types/react@19.2.14)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
+  '@mui/material@5.16.14(@emotion/react@11.14.0(@types/react@19.2.14)(react@18.3.1))(@emotion/styled@11.14.0(@emotion/react@11.14.0(@types/react@19.2.14)(react@18.3.1))(@types/react@19.2.14)(react@18.3.1))(@types/react@19.2.14)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)': main
     dependencies:
       '@babel/runtime': 7.28.6
       '@mui/core-downloads-tracker': 5.16.14
@@ -9099,7 +9122,7 @@ snapshots:
       '@mui/types': 7.2.21(@types/react@19.2.14)
       '@mui/utils': 5.16.14(@types/react@19.2.14)(react@18.3.1)
       '@popperjs/core': 2.11.8
-      '@types/react-transition-group': 4.4.12(@types/react@19.2.14)
+      '@types/react-transition-group': 4.4.12(@types/react@19.2.14) dependabot/npm_and_yarn/npm_and_yarn-1ad2bacbea
   '@mui/material@5.16.14(@emotion/react@11.14.0(@types/react@19.2.17)(react@18.3.1))(@emotion/styled@11.14.0(@emotion/react@11.14.0(@types/react@19.2.17)(react@18.3.1))(@types/react@19.2.17)(react@18.3.1))(@types/react@19.2.17)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
     dependencies:
       '@babel/runtime': 7.28.6
@@ -9108,7 +9131,7 @@ snapshots:
       '@mui/types': 7.2.21(@types/react@19.2.17)
       '@mui/utils': 5.16.14(@types/react@19.2.17)(react@18.3.1)
       '@popperjs/core': 2.11.8
-      '@types/react-transition-group': 4.4.12(@types/react@19.2.17) main main
+      '@types/react-transition-group': 4.4.12(@types/react@19.2.17) main main main
       clsx: 2.1.1
       csstype: 3.1.3
       prop-types: 15.8.1
@@ -9116,8 +9139,8 @@ snapshots:
       react-dom: 18.3.1(react@18.3.1)
       react-is: 19.0.0
       react-transition-group: 4.4.5(react-dom@18.3.1(react@18.3.1))(react@18.3.1) dependabot/npm_and_yarn/npm_and_yarn-3bd2ba5a1b
-    optionalDependencies:
-    optionalDependencies: dependabot/npm_and_yarn/npm_and_yarn-aa935e5de0 main
+    optionalDependencies: dependabot/npm_and_yarn/npm_and_yarn-1ad2bacbea
+    optionalDependencies: dependabot/npm_and_yarn/npm_and_yarn-aa935e5de0 main main
       '@emotion/react': 11.14.0(@types/react@19.2.14)(react@18.3.1)
       '@emotion/styled': 11.14.0(@emotion/react@11.14.0(@types/react@19.2.14)(react@18.3.1))(@types/react@19.2.14)(react@18.3.1)
       '@types/react': 19.2.14
@@ -9128,7 +9151,10 @@ snapshots:
       '@mui/utils': 5.16.14(@types/react@19.2.14)(react@18.3.1)
       prop-types: 15.8.1
       react: 18.3.1
-    optionalDependencies:
+    optionalDependencies: dependabot/npm_and_yarn/npm_and_yarn-1ad2bacbea
+      '@types/react': 19.2.14
+
+  '@mui/styled-engine@5.16.14(@emotion/react@11.14.0(@types/react@19.2.14)(react@18.3.1))(@emotion/styled@11.14.0(@emotion/react@11.14.0(@types/react@19.2.14)(react@18.3.1))(@types/react@19.2.14)(react@18.3.1))(react@18.3.1)':
       '@types/react': 19.2.14 dependabot/npm_and_yarn/npm_and_yarn-3bd2ba5a1b
 
   '@mui/styled-engine@5.16.14(@emotion/react@11.14.0(@types/react@19.2.14)(react@18.3.1))(@emotion/styled@11.14.0(@emotion/react@11.14.0(@types/react@19.2.14)(react@18.3.1))(@types/react@19.2.14)(react@18.3.1))(react@18.3.1)':
@@ -9138,7 +9164,7 @@ snapshots:
       '@emotion/styled': 11.14.0(@emotion/react@11.14.0(@types/react@19.2.17)(react@18.3.1))(@types/react@19.2.17)(react@18.3.1)
       '@types/react': 19.2.17
 
-  '@mui/private-theming@5.16.14(@types/react@19.2.17)(react@18.3.1)': main
+  '@mui/private-theming@5.16.14(@types/react@19.2.17)(react@18.3.1)': main main
     dependencies:
       '@babel/runtime': 7.29.7
       '@mui/utils': 5.16.14(@types/react@19.2.17)(react@18.3.1)
@@ -9154,7 +9180,17 @@ snapshots:
       csstype: 3.1.3
       prop-types: 15.8.1
       react: 18.3.1 dependabot/npm_and_yarn/npm_and_yarn-3bd2ba5a1b
-    optionalDependencies:
+    optionalDependencies: dependabot/npm_and_yarn/npm_and_yarn-1ad2bacbea
+      '@emotion/react': 11.14.0(@types/react@19.2.14)(react@18.3.1)
+      '@emotion/styled': 11.14.0(@emotion/react@11.14.0(@types/react@19.2.14)(react@18.3.1))(@types/react@19.2.14)(react@18.3.1)
+
+  '@mui/system@5.16.14(@emotion/react@11.14.0(@types/react@19.2.14)(react@18.3.1))(@emotion/styled@11.14.0(@emotion/react@11.14.0(@types/react@19.2.14)(react@18.3.1))(@types/react@19.2.14)(react@18.3.1))(@types/react@19.2.14)(react@18.3.1)':
+    dependencies:
+      '@babel/runtime': 7.28.6
+      '@mui/private-theming': 5.16.14(@types/react@19.2.14)(react@18.3.1)
+      '@mui/styled-engine': 5.16.14(@emotion/react@11.14.0(@types/react@19.2.14)(react@18.3.1))(@emotion/styled@11.14.0(@emotion/react@11.14.0(@types/react@19.2.14)(react@18.3.1))(@types/react@19.2.14)(react@18.3.1))(react@18.3.1)
+      '@mui/types': 7.2.21(@types/react@19.2.14)
+      '@mui/utils': 5.16.14(@types/react@19.2.14)(react@18.3.1)
     optionalDependencies: dependabot/npm_and_yarn/npm_and_yarn-aa935e5de0 main
       '@emotion/react': 11.14.0(@types/react@19.2.14)(react@18.3.1)
       '@emotion/styled': 11.14.0(@emotion/react@11.14.0(@types/react@19.2.14)(react@18.3.1))(@types/react@19.2.14)(react@18.3.1)
@@ -9175,7 +9211,7 @@ snapshots:
       '@mui/private-theming': 5.16.14(@types/react@19.2.17)(react@18.3.1)
       '@mui/styled-engine': 5.16.14(@emotion/react@11.14.0(@types/react@19.2.17)(react@18.3.1))(@emotion/styled@11.14.0(@emotion/react@11.14.0(@types/react@19.2.17)(react@18.3.1))(@types/react@19.2.17)(react@18.3.1))(react@18.3.1)
       '@mui/types': 7.2.21(@types/react@19.2.17)
-      '@mui/utils': 5.16.14(@types/react@19.2.17)(react@18.3.1) main main
+      '@mui/utils': 5.16.14(@types/react@19.2.17)(react@18.3.1) main main main
       clsx: 2.1.1
       csstype: 3.1.3
       prop-types: 15.8.1
@@ -9192,7 +9228,19 @@ snapshots:
       '@types/react': 19.2.14
 
   '@mui/types@7.2.21(@types/react@19.2.14)':
+    optionalDependencies: dependabot/npm_and_yarn/npm_and_yarn-1ad2bacbea
+      '@emotion/react': 11.14.0(@types/react@19.2.14)(react@18.3.1)
+      '@emotion/styled': 11.14.0(@emotion/react@11.14.0(@types/react@19.2.14)(react@18.3.1))(@types/react@19.2.14)(react@18.3.1)
+      '@types/react': 19.2.14
+
+  '@mui/types@7.2.21(@types/react@19.2.14)':
     optionalDependencies:
+      '@types/react': 19.2.14
+
+  '@mui/utils@5.16.14(@types/react@19.2.14)(react@18.3.1)':
+    dependencies:
+      '@babel/runtime': 7.28.6
+      '@mui/types': 7.2.21(@types/react@19.2.14
       '@types/react': 19.2.14
 
   '@mui/utils@5.16.14(@types/react@19.2.14)(react@18.3.1)':
@@ -9216,17 +9264,17 @@ snapshots:
   '@mui/utils@5.16.14(@types/react@19.2.17)(react@18.3.1)':
     dependencies:
       '@babel/runtime': 7.28.6
-      '@mui/types': 7.2.21(@types/react@19.2.17) main main
+      '@mui/types': 7.2.21(@types/react@19.2.17) main main main
       '@types/prop-types': 15.7.14
       clsx: 2.1.1
       prop-types: 15.8.1
       react: 18.3.1
       react-is: 19.0.0 dependabot/npm_and_yarn/npm_and_yarn-3bd2ba5a1b
     optionalDependencies:
-      '@types/react': 19.2.14
+      '@types/react': 19.2.14 dependabot/npm_and_yarn/npm_and_yarn-1ad2bacbea
     optionalDependencies: dependabot/npm_and_yarn/npm_and_yarn-aa935e5de0
       '@types/react': 19.2.14
-      '@types/react': 19.2.17 main main
+      '@types/react': 19.2.17 main main main
 
   '@nodelib/fs.scandir@2.1.5':
     dependencies:
@@ -9279,10 +9327,10 @@ snapshots:
 
   '@slorber/react-helmet-async@1.3.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)': dependabot/npm_and_yarn/npm_and_yarn-3bd2ba5a1b
     dependencies:
-      '@babel/runtime': 7.29.2
+      '@babel/runtime': 7.29.2 dependabot/npm_and_yarn/npm_and_yarn-1ad2bacbea
     dependencies: dependabot/npm_and_yarn/npm_and_yarn-aa935e5de0
       '@babel/runtime': 7.29.2
-      '@babel/runtime': 7.29.7 main main
+      '@babel/runtime': 7.29.7 main main main
       invariant: 2.2.4
       prop-types: 15.8.1
       react: 18.3.1
@@ -9575,7 +9623,7 @@ snapshots:
     dependencies:
       csstype: 3.1.3
 
-  '@types/react@19.2.14':
+  '@types/react@19.2.14': dependabot/npm_and_yarn/npm_and_yarn-1ad2bacbea
       '@types/react': 19.2.17 dependabot/npm_and_yarn/npm_and_yarn-aa935e5de0
   '@types/react-transition-group@4.4.12(@types/react@19.2.14)':
     dependencies:
@@ -9588,7 +9636,7 @@ snapshots:
     dependencies:
       csstype: 3.1.3 dependabot/npm_and_yarn/npm_and_yarn-aa935e5de0
   '@types/react@19.2.14':
-  '@types/react@19.2.17': main main
+  '@types/react@19.2.17': main main main
     dependencies:
       csstype: 3.2.3
 
@@ -9884,20 +9932,24 @@ snapshots:
 
   axios@0.25.0:
     dependencies:
-      follow-redirects: 1.16.0
+      follow-redirects: 1.16.0 dependabot/npm_and_yarn/npm_and_yarn-1ad2bacbea
+    transitivePeerDependencies:
+      - debug
+
+  axios@1.15.0:
     transitivePeerDependencies: dependabot/npm_and_yarn/npm_and_yarn-3bd2ba5a1b
       - debug
 
   axios@1.13.5:
       - debug dependabot/npm_and_yarn/npm_and_yarn-aa935e5de0
-  axios@1.15.0: main
+  axios@1.15.0: main main
     dependencies:
-      follow-redirects: 1.15.11
-      form-data: 4.0.5
+      follow-redirects: 1.16.0
+      form-data: 4.0.5 dependabot/npm_and_yarn/npm_and_yarn-1ad2bacbea
   axios@1.16.0:
     dependencies:
       follow-redirects: 1.16.0
-      form-data: 4.0.6 main
+      form-data: 4.0.6 main main
       proxy-from-env: 2.1.0
     transitivePeerDependencies:
       - debug
@@ -10031,13 +10083,13 @@ snapshots:
       string-width: 5.1.2
       type-fest: 2.19.0
       widest-line: 4.0.1
-      wrap-ansi: 8.1.0 dependabot/npm_and_yarn/npm_and_yarn-3bd2ba5a1b
-
-  brace-expansion@1.1.13:
+      wrap-ansi: 8.1.0 dependabot/npm_and_yarn/npm_and_yarn-3bd2ba5a1b dependabot/npm_and_yarn/npm_and_yarn-1ad2bacbea
+  brace-expansion@1.1.14:
+  brace-expansion@1.1.13: main
     dependencies:
       balanced-match: 1.0.2
-      concat-map: 0.0.1
-
+      concat-map: 0.0.1 dependabot/npm_and_yarn/npm_and_yarn-1ad2bacbea
+  brace-expansion@2.1.0:
   brace-expansion@2.0.3:
  dependabot/npm_and_yarn/npm_and_yarn-aa935e5de0
   brace-expansion@1.1.13:
@@ -10046,7 +10098,7 @@ snapshots:
       balanced-match: 1.0.2
       concat-map: 0.0.1 dependabot/npm_and_yarn/npm_and_yarn-aa935e5de0
   brace-expansion@2.0.3:
-  brace-expansion@2.1.0: main main
+  brace-expansion@2.1.0: main main main
     dependencies:
       balanced-match: 1.0.2
 
@@ -10193,11 +10245,12 @@ snapshots:
       htmlparser2: 9.1.0
       parse5: 7.2.1
       parse5-htmlparser2-tree-adapter: 7.1.0 dependabot/npm_and_yarn/npm_and_yarn-3bd2ba5a1b
-      parse5-parser-stream: 7.1.2
+      parse5-parser-stream: 7.1.2 dependabot/npm_and_yarn/npm_and_yarn-1ad2bacbea
+      undici: 6.25.0
       undici: 6.24.1
       parse5-parser-stream: 7.1.2 dependabot/npm_and_yarn/npm_and_yarn-aa935e5de0
       undici: 6.24.1
-      undici: 6.25.0 main main
+      undici: 6.25.0 main main main
       whatwg-mimetype: 4.0.0
 
   chokidar@3.6.0:
@@ -10465,8 +10518,59 @@ snapshots:
 
   css-what@6.1.0: {}
 
-  cssesc@3.0.0: {}
+  cssesc@3.0.0: {} dependabot/npm_and_yarn/npm_and_yarn-1ad2bacbea
+  cssnano-preset-advanced@5.3.10(postcss@8.4.49):
+    dependencies:
+      autoprefixer: 10.4.20(postcss@8.4.49)
+      cssnano-preset-default: 5.2.14(postcss@8.4.49)
+      postcss: 8.4.49
+      postcss-discard-unused: 5.1.0(postcss@8.4.49)
+      postcss-merge-idents: 5.1.1(postcss@8.4.49)
+      postcss-reduce-idents: 5.2.0(postcss@8.4.49)
+      postcss-zindex: 5.1.0(postcss@8.4.49)
 
+  cssnano-preset-default@5.2.14(postcss@8.4.49):
+    dependencies:
+      css-declaration-sorter: 6.4.1(postcss@8.4.49)
+      cssnano-utils: 3.1.0(postcss@8.4.49)
+      postcss: 8.4.49
+      postcss-calc: 8.2.4(postcss@8.4.49)
+      postcss-colormin: 5.3.1(postcss@8.4.49)
+      postcss-convert-values: 5.1.3(postcss@8.4.49)
+      postcss-discard-comments: 5.1.2(postcss@8.4.49)
+      postcss-discard-duplicates: 5.1.0(postcss@8.4.49)
+      postcss-discard-empty: 5.1.1(postcss@8.4.49)
+      postcss-discard-overridden: 5.1.0(postcss@8.4.49)
+      postcss-merge-longhand: 5.1.7(postcss@8.4.49)
+      postcss-merge-rules: 5.1.4(postcss@8.4.49)
+      postcss-minify-font-values: 5.1.0(postcss@8.4.49)
+      postcss-minify-gradients: 5.1.1(postcss@8.4.49)
+      postcss-minify-params: 5.1.4(postcss@8.4.49)
+      postcss-minify-selectors: 5.2.1(postcss@8.4.49)
+      postcss-normalize-charset: 5.1.0(postcss@8.4.49)
+      postcss-normalize-display-values: 5.1.0(postcss@8.4.49)
+      postcss-normalize-positions: 5.1.1(postcss@8.4.49)
+      postcss-normalize-repeat-style: 5.1.1(postcss@8.4.49)
+      postcss-normalize-string: 5.1.0(postcss@8.4.49)
+      postcss-normalize-timing-functions: 5.1.0(postcss@8.4.49)
+      postcss-normalize-unicode: 5.1.1(postcss@8.4.49)
+      postcss-normalize-url: 5.1.0(postcss@8.4.49)
+      postcss-normalize-whitespace: 5.1.1(postcss@8.4.49)
+      postcss-ordered-values: 5.1.3(postcss@8.4.49)
+      postcss-reduce-initial: 5.1.2(postcss@8.4.49)
+      postcss-reduce-transforms: 5.1.0(postcss@8.4.49)
+      postcss-svgo: 5.1.0(postcss@8.4.49)
+      postcss-unique-selectors: 5.1.1(postcss@8.4.49)
+
+  cssnano-utils@3.1.0(postcss@8.4.49):
+    dependencies:
+      postcss: 8.4.49
+
+  cssnano@5.1.15(postcss@8.4.49):
+    dependencies:
+      cssnano-preset-default: 5.2.14(postcss@8.4.49)
+      lilconfig: 2.1.0
+      postcss: 8.4.49
   cssnano-preset-advanced@5.3.10(postcss@8.5.10):
     dependencies:
       autoprefixer: 10.4.20(postcss@8.5.10)
@@ -10519,7 +10623,7 @@ snapshots:
       cssnano-preset-default: 5.2.14(postcss@8.5.10)
       lilconfig: 2.1.0 dependabot/npm_and_yarn/npm_and_yarn-aa935e5de0
       postcss: 8.4.49 dependabot/npm_and_yarn/npm_and_yarn-3bd2ba5a1b
-      postcss: 8.5.10 main main
+      postcss: 8.5.10 main main main
       yaml: 1.10.3
 
   csso@4.2.0:
@@ -10883,12 +10987,12 @@ snapshots:
 
   domhandler@5.0.3:
     dependencies: dependabot/npm_and_yarn/npm_and_yarn-aa935e5de0
-      domelementtype: 2.3.0
-
+      domelementtype: 2.3.0 dependabot/npm_and_yarn/npm_and_yarn-1ad2bacbea
+  dompurify@3.4.0:
   dompurify@3.3.3 dependabot/npm_and_yarn/npm_and_yarn-3bd2ba5a1b
       domelementtype: 2.3.0 dependabot/npm_and_yarn/npm_and_yarn-365f5297eb
   dompurify@3.4.0:
-  dompurify@3.4.1: main main main
+  dompurify@3.4.1: main main main main
     optionalDependencies:
       '@types/trusted-types': 2.0.7
 
@@ -12462,11 +12566,12 @@ snapshots:
       d3: 7.9.0
       d3-sankey: 0.12.3
       dagre-d3-es: 7.0.13 dependabot/npm_and_yarn/npm_and_yarn-aa935e5de0
-      dayjs: 1.11.13
+      dayjs: 1.11.13 dependabot/npm_and_yarn/npm_and_yarn-1ad2bacbea
+      dompurify: 3.4.0
       dompurify: 3.3.3 dependabot/npm_and_yarn/npm_and_yarn-3bd2ba5a1b
       dayjs: 1.11.13 dependabot/npm_and_yarn/npm_and_yarn-365f5297eb
       dompurify: 3.4.0
-      dompurify: 3.4.1 main main main
+      dompurify: 3.4.1 main main main main
       elkjs: 0.9.3
       katex: 0.16.22
       khroma: 2.1.0
@@ -12958,14 +13063,15 @@ snapshots:
       brace-expansion: 1.1.13
 
   minimatch@9.0.5:
-    dependencies:
+    dependencies: dependabot/npm_and_yarn/npm_and_yarn-1ad2bacbea
       brace-expansion: 2.0.3
-      brace-expansion: 2.0.3
+      brace-expansion: 2.0.3 main
       brace-expansion: 1.1.14
 
   minimatch@9.0.5:
-    dependencies:
-      brace-expansion: 2.1. main main
+    dependencies: dependabot/npm_and_yarn/npm_and_yarn-1ad2bacbea
+      brace-expansion: 2.1.0
+      brace-expansion: 2.1. main main main
 
   minimist@1.2.8: {}
 
@@ -14589,12 +14695,12 @@ snapshots:
 
   typescript@4.9.5: {}
  dependabot/npm_and_yarn/npm_and_yarn-3bd2ba5a1b
-  undici-types@6.20.0: {}
-
+  undici-types@6.20.0: {} dependabot/npm_and_yarn/npm_and_yarn-1ad2bacbea
+  undici@6.25.0: {}
   undici@6.24.1: {}
   undici-types@6.20.0: {} dependabot/npm_and_yarn/npm_and_yarn-aa935e5de0
   undici@6.24.1: {}
-  undici@6.25.0: { main main
+  undici@6.25.0: { main main main
 
   unherit@1.1.3:
     dependencies:
