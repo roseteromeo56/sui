@@ -132,11 +132,12 @@ importers:
         specifier: ^18.3.0
         version: 18.3.7(@types/react@18.3.21)
       '@vitejs/plugin-react': dependabot/npm_and_yarn/npm_and_yarn-3bd2ba5a1b
-        specifier: ^4.4.1
+        specifier: ^4.4. dependabot/npm_and_yarn/npm_and_yarn-5d09fa0434
+        version: 4.4.1(vite@7.3.2(@types/node@20.17.46)(jiti@2.4.2)(lightningcss@1.30.0)(tsx@4.19.4)(yaml@2.7.1))
         version: 4.4.1(vite@7.3.2(@types/node@20.17.46)(jiti@2.4.2)(lightningcss@1.30.0)(tsx@4.19.4)(yaml@2.7.1)) dependabot/npm_and_yarn/npm_and_yarn-1ad2bacbea
         specifier: ^4.4.1 dependabot/npm_and_yarn/npm_and_yarn-aa935e5de0
         version: 4.4.1(vite@7.3.2(@types/node@20.17.46)(jiti@2.4.2)(lightningcss@1.30.0)(tsx@4.19.4)(yaml@2.7.1))
-        version: 4.4.1(vite@7.3.5(@types/node@20.17.46)(jiti@2.4.2)(lightningcss@1.30.0)(tsx@4.19.4)(yaml@2.7.1) main main main
+        version: 4.4.1(vite@7.3.5(@types/node@20.17.46)(jiti@2.4.2)(lightningcss@1.30.0)(tsx@4.19.4)(yaml@2.7.1) main main main main
       autoprefixer:
         specifier: ^10.4.21
         version: 10.4.21(postcss@8.5.15)
@@ -149,7 +150,9 @@ importers:
       typescript:
         specifier: ^5.5.3
         version: 5.8.10 dependabot/npm_and_yarn/npm_and_yarn-3bd2ba5a1b
-      vite:
+      vite: dependabot/npm_and_yarn/npm_and_yarn-5d09fa0434
+        specifier: ^7.3.2
+        version: 7.3.2(@types/node@20.17.46)(jiti@2.4.2)(lightningcss@1.30.0)(tsx@4.19.4)(yaml@2.7.1)
         specifier: ^7.3.2 dependabot/npm_and_yarn/npm_and_yarn-1ad2bacbea
         version: 7.3.2(@types/node@20.17.46)(jiti@2.4.2)(lightningcss@1.30.0)(tsx@4.19.4)(yaml@2.7.1)
         version: 7.3.2(@types/node@20.17.46)(jiti@2.4.2)(lightningcss@1.30.0)(tsx@4.19.4)(yaml@2.7.1
@@ -157,7 +160,7 @@ importers:
         specifier: ^7.3.2
         version: 7.3.2(@types/node@20.17.46)(jiti@2.4.2)(lightningcss@1.30.0)(tsx@4.19.4)(yaml@2.7.1)
         specifier: ^7.3.5
-        version: 7.3.5(@types/node@20.17.46)(jiti@2.4.2)(lightningcss@1.30.0)(tsx@4.19.4)(yaml@2.7.1) main main main
+        version: 7.3.5(@types/node@20.17.46)(jiti@2.4.2)(lightningcss@1.30.0)(tsx@4.19.4)(yaml@2.7.1) main main main main
 
   dapps/kiosk-cli:
     dependencies:
@@ -271,11 +274,12 @@ importers:
         specifier: ^18.3.0
         version: 18.3.7(@types/react@18.3.21)
       '@vitejs/plugin-react' dependabot/npm_and_yarn/npm_and_yarn-3bd2ba5a1b
-        specifier: ^4.4.1
+        specifier: ^4.4.1 dependabot/npm_and_yarn/npm_and_yarn-5d09fa0434
+        version: 4.4.1(vite@7.3.2(@types/node@20.17.46)(jiti@2.4.2)(lightningcss@1.30.0)(tsx@4.19.4)(yaml@2.7.1))
         version: 4.4.1(vite@7.3.2(@types/node@20.17.46)(jiti@2.4.2)(lightningcss@1.30.0)(tsx@4.19.4)(yaml@2.7.1)) dependabot/npm_and_yarn/npm_and_yarn-1ad2bacbea
         specifier: ^4.4.1 dependabot/npm_and_yarn/npm_and_yarn-aa935e5de0
         version: 4.4.1(vite@7.3.2(@types/node@20.17.46)(jiti@2.4.2)(lightningcss@1.30.0)(tsx@4.19.4)(yaml@2.7.1))
-        version: 4.4.1(vite@7.3.5(@types/node@20.17.46)(jiti@2.4.2)(lightningcss@1.30.0)(tsx@4.19.4)(yaml@2.7.1)) main main main
+        version: 4.4.1(vite@7.3.5(@types/node@20.17.46)(jiti@2.4.2)(lightningcss@1.30.0)(tsx@4.19.4)(yaml@2.7.1)) main main main main
       autoprefixer:
         specifier: ^10.4.21
         version: 10.4.21(postcss@8.5.15)
@@ -285,14 +289,18 @@ importers:
       tailwindcss:
         specifier: ^3.4.17
         version: 3.4.17(ts-node@10.9.2(@types/node@20.17.46)(typescript@5.8.3))
-      tailwindcss-animate:
+     n tailwindcss-animate:
         specifier: ^1.0.7
         version: 1.0.7(tailwindcss@3.4.17(ts-node@10.9.2(@types/node@20.17.46)(typescript@5.8.3)))
       typescript:
         specifier: ^5.5.3
         version: 5.8. dependabot/npm_and_yarn/npm_and_yarn-3bd2ba5a1b
       vite:
-        specifier: ^7.3.2
+        specifier: ^7.3.2 dependabot/npm_and_yarn/npm_and_yarn-5d09fa0434
+        version: 7.3.2(@types/node@20.17.46)(jiti@2.4.2)(lightningcss@1.30.0)(tsx@4.19.4)(yaml@2.7.1)
+      vite-tsconfig-paths:
+        specifier: ^4.3.2
+        version: 4.3.2(typescript@5.8.3)(vite@7.3.2(@types/node@20.17.46)(jiti@2.4.2)(lightningcss@1.30.0)(tsx@4.19.4)(yaml@2.7.1)
         version: 7.3.2(@types/node@20.17.46)(jiti@2.4.2)(lightningcss@1.30.0)(tsx@4.19.4)(yaml@2.7.1) dependabot/npm_and_yarn/npm_and_yarn-1ad2bacbea
       vite-tsconfig-paths:
         specifier: ^4.3.2
@@ -310,7 +318,7 @@ importers:
         version: 7.3.5(@types/node@20.17.46)(jiti@2.4.2)(lightningcss@1.30.0)(tsx@4.19.4)(yaml@2.7.1)
       vite-tsconfig-paths:
         specifier: ^4.3.2
-        version: 4.3.2(typescript@5.8.3)(vite@7.3.5(@types/node@20.17.46)(jiti@2.4.2)(lightningcss@1.30.0)(tsx@4.19.4)(yaml@2.7.1)) main main main
+        version: 4.3.2(typescript@5.8.3)(vite@7.3.5(@types/node@20.17.46)(jiti@2.4.2)(lightningcss@1.30.0)(tsx@4.19.4)(yaml@2.7.1)) main main main main
 
   dapps/sponsored-transactions:
     dependencies:
@@ -337,11 +345,12 @@ importers:
         specifier: ^18.3.0
         version: 18.3.0
       '@vitejs/plugin-react': dependabot/npm_and_yarn/npm_and_yarn-3bd2ba5a1b
-        specifier: ^4.4.1
+        specifier: ^4.4.1 dependabot/npm_and_yarn/npm_and_yarn-5d09fa0434
+        version: 4.4.1(vite@7.3.2(@types/node@20.17.46)(jiti@2.4.2)(lightningcss@1.30.0)(tsx@4.19.4)(yaml@2.7.1))
         version: 4.4.1(vite@7.3.2(@types/node@20.17.46)(jiti@2.4.2)(lightningcss@1.30.0)(tsx@4.19.4)(yaml@2.7.1) dependabot/npm_and_yarn/npm_and_yarn-1ad2bacbea
         specifier: ^4.4.1 dependabot/npm_and_yarn/npm_and_yarn-aa935e5de0
         version: 4.4.1(vite@7.3.2(@types/node@20.17.46)(jiti@2.4.2)(lightningcss@1.30.0)(tsx@4.19.4)(yaml@2.7.1)
-        version: 4.4.1(vite@7.3.5(@types/node@20.17.46)(jiti@2.4.2)(lightningcss@1.30.0)(tsx@4.19.4)(yaml@2.7.1)) main main main
+        version: 4.4.1(vite@7.3.5(@types/node@20.17.46)(jiti@2.4.2)(lightningcss@1.30.0)(tsx@4.19.4)(yaml@2.7.1)) main main main main
       autoprefixer:
         specifier: ^10.4.21
         version: 10.4.21(postcss@8.5.15)
@@ -355,13 +364,14 @@ importers:
         specifier: ^5.5.3
         version: 5.5.3 dependabot/npm_and_yarn/npm_and_yarn-3bd2ba5a1b
       vite:
-        specifier: ^7.3.2
+        specifier: ^7.3.2 dependabot/npm_and_yarn/npm_and_yarn-5d09fa0434
+        version: 7.3.2(@types/node@20.17.46)(jiti@2.4.2)(lightningcss@1.30.0)(tsx@4.19.4)(yaml@2.7.1)
         version: 7.3.2(@types/node@20.17.46)(jiti@2.4.2)(lightningcss@1.30.0)(tsx@4.19.4)(yaml@2.7.1) dependabot/npm_and_yarn/npm_and_yarn-1ad2bacbea
       vite: dependabot/npm_and_yarn/npm_and_yarn-aa935e5de0
         specifier: ^7.3.2
         version: 7.3.2(@types/node@20.17.46)(jiti@2.4.2)(lightningcss@1.30.0)(tsx@4.19.4)(yaml@2.7.1)
         specifier: ^7.3.5
-        version: 7.3.5(@types/node@20.17.46)(jiti@2.4.2)(lightningcss@1.30.0)(tsx@4.19.4)(yaml@2.7.1) main main main
+        version: 7.3.5(@types/node@20.17.46)(jiti@2.4.2)(lightningcss@1.30.0)(tsx@4.19.4)(yaml@2.7.1) main main main main
 
   examples/mev_bot:
     dependencies:
@@ -450,11 +460,12 @@ importers:
         specifier: ^6.1.0
         version: 6.21.0(eslint@9.26.0(jiti@2.4.2))(typescript@5.8.3)
       '@vitejs/plugin-react-swc': dependabot/npm_and_yarn/npm_and_yarn-3bd2ba5a1b
-        specifier: ^3.9.0
+        specifier: ^3.9.0 dependabot/npm_and_yarn/npm_and_yarn-5d09fa0434
+        version: 3.9.0(@swc/helpers@0.5.17)(vite@7.3.2(@types/node@20.17.46)(jiti@2.4.2)(lightningcss@1.30.0)(tsx@4.19.4)(yaml@2.7.1))
         version: 3.9.0(@swc/helpers@0.5.17)(vite@7.3.2(@types/node@20.17.46)(jiti@2.4.2)(lightningcss@1.30.0)(tsx@4.19.4)(yaml@2.7.1)) dependabot/npm_and_yarn/npm_and_yarn-1ad2bacbea
         specifier: ^3.9.0 dependabot/npm_and_yarn/npm_and_yarn-aa935e5de0
         version: 3.9.0(@swc/helpers@0.5.17)(vite@7.3.2(@types/node@20.17.46)(jiti@2.4.2)(lightningcss@1.30.0)(tsx@4.19.4)(yaml@2.7.1))
-        version: 3.9.0(@swc/helpers@0.5.17)(vite@7.3.5(@types/node@20.17.46)(jiti@2.4.2)(lightningcss@1.30.0)(tsx@4.19.4)(yaml@2.7.1)) main main main
+        version: 3.9.0(@swc/helpers@0.5.17)(vite@7.3.5(@types/node@20.17.46)(jiti@2.4.2)(lightningcss@1.30.0)(tsx@4.19.4)(yaml@2.7.1)) main main main main
       eslint:
         specifier: ^9.26.0
         version: 9.26.0(jiti@2.4.2)
@@ -468,7 +479,14 @@ importers:
         specifier: ^3.3.2
         version: 3.5.3
       typescript:
-        specifier: ^5.5.3
+        specifier: ^5.5.3 dependabot/npm_and_yarn/npm_and_yarn-5d09fa0434
+        version: 5.8.3
+      vite:
+        specifier: ^7.3.2
+        version: 7.3.2(@types/node@20.17.46)(jiti@2.4.2)(lightningcss@1.30.0)(tsx@4.19.4)(yaml@2.7.1)
+      vite-tsconfig-paths:
+        specifier: ^4.3.2
+        version: 4.3.2(typescript@5.8.3)(vite@7.3.2(@types/node@20.17.46)(jiti@2.4.2)(lightningcss@1.30.0)(tsx@4.19.4)(yaml@2.7.1))
         version: 5.8. dependabot/npm_and_yarn/npm_and_yarn-3bd2ba5a1b
       vite: dependabot/npm_and_yarn/npm_and_yarn-1ad2bacbea
         specifier: ^7.3.2
@@ -486,7 +504,7 @@ importers:
         version: 7.3.5(@types/node@20.17.46)(jiti@2.4.2)(lightningcss@1.30.0)(tsx@4.19.4)(yaml@2.7.1)
       vite-tsconfig-paths:
         specifier: ^4.3.2
-        version: 4.3.2(typescript@5.8.3)(vite@7.3.5(@types/node@20.17.46)(jiti@2.4.2)(lightningcss@1.30.0)(tsx@4.19.4)(yaml@2.7.1)) main main main
+        version: 4.3.2(typescript@5.8.3)(vite@7.3.5(@types/node@20.17.46)(jiti@2.4.2)(lightningcss@1.30.0)(tsx@4.19.4)(yaml@2.7.1)) main main main main
 
   examples/trading/api:
     dependencies:
@@ -569,14 +587,17 @@ importers:
         version: 6.1.0(@typescript-eslint/parser@6.1.0(eslint@9.26.0(jiti@2.4.2))(typescript@5.5.3))(eslint@9.26.0(jiti@2.4.2))(typescript@5.5.3)
       '@typescript-eslint/parser':
         specifier: ^6.1.0
-        version: 6.1.0(eslint@9.26.0(jiti@2.4.2))(typescript@5.5.3)
+        version: 6.1.0(eslint@9.26.0(jiti@2.4.2))(typescript@5.5.3) dependabot/npm_and_yarn/npm_and_yarn-5d09fa0434
+      '@vitejs/plugin-react-swc':
+        specifier: ^3.9.0
+        version: 3.9.0(@swc/helpers@0.5.17)(vite@7.3.2(@types/node@20.17.46)(jiti@2.4.2)(lightningcss@1.30.0)(tsx@4.19.4)(yaml@2.7.1))
       '@vitejs/plugin-react-swc': dependabot/npm_and_yarn/npm_and_yarn-3bd2ba5a1b
         specifier: ^3.9.0 dependabot/npm_and_yarn/npm_and_yarn-1ad2bacbea
         version: 3.9.0(@swc/helpers@0.5.17)(vite@7.3.2(@types/node@20.17.46)(jiti@2.4.2)(lightningcss@1.30.0)(tsx@4.19.4)(yaml@2.7.1)
         version: 3.9.0(@swc/helpers@0.5.17)(vite@7.3.2(@types/node@20.17.46)(jiti@2.4.2)(lightningcss@1.30.0)(tsx@4.19.4)(yaml@2.7.1)
         specifier: ^3.9.0 dependabot/npm_and_yarn/npm_and_yarn-aa935e5de0
         version: 3.9.0(@swc/helpers@0.5.17)(vite@7.3.2(@types/node@20.17.46)(jiti@2.4.2)(lightningcss@1.30.0)(tsx@4.19.4)(yaml@2.7.1))
-        version: 3.9.0(@swc/helpers@0.5.17)(vite@7.3.5(@types/node@20.17.46)(jiti@2.4.2)(lightningcss@1.30.0)(tsx@4.19.4)(yaml@2.7.1)) main mai main
+        version: 3.9.0(@swc/helpers@0.5.17)(vite@7.3.5(@types/node@20.17.46)(jiti@2.4.2)(lightningcss@1.30.0)(tsx@4.19.4)(yaml@2.7.1)) main mai main main
       autoprefixer:
         specifier: ^10.4.21
         version: 10.4.21(postcss@8.5.15)
@@ -602,13 +623,14 @@ importers:
         specifier: ^5.5.3
         version: 5.5.3 dependabot/npm_and_yarn/npm_and_yarn-3bd2ba5a1b
       vite:
-        specifier: ^7.3.2
+        specifier: ^7.3.2 dependabot/npm_and_yarn/npm_and_yarn-5d09fa0434
+        version: 7.3.2(@types/node@20.17.46)(jiti@2.4.2)(lightningcss@1.30.0)(tsx@4.19.4)(yaml@2.7.1)
         version: 7.3.2(@types/node@20.17.46)(jiti@2.4.2)(lightningcss@1.30.0)(tsx@4.19.4)(yaml@2.7.1) dependabot/npm_and_yarn/npm_and_yarn-1ad2bacbea
       vite: dependabot/npm_and_yarn/npm_and_yarn-aa935e5de0
         specifier: ^7.3.2
         version: 7.3.2(@types/node@20.17.46)(jiti@2.4.2)(lightningcss@1.30.0)(tsx@4.19.4)(yaml@2.7.1)
         specifier: ^7.3.5
-        version: 7.3.5(@types/node@20.17.46)(jiti@2.4.2)(lightningcss@1.30.0)(tsx@4.19.4)(yaml@2.7.1) main main main
+        version: 7.3.5(@types/node@20.17.46)(jiti@2.4.2)(lightningcss@1.30.0)(tsx@4.19.4)(yaml@2.7.1) main main main main
 
   examples/usdc-transfer-app:
     dependencies:
@@ -654,10 +676,12 @@ importers:
         specifier: ^5.2.0
         version: 5.2.2
       typescript:
-        specifier: ^5.5.3
+        specifier: ^5.5.3 dependabot/npm_and_yarn/npm_and_yarn-5d09fa0434
+        version: 5.5.3
+      vitest:
         version: 5.5.3 dependabot/npm_and_yarn/npm_and_yarn-3bd2ba5a1b
       vitest: dependabot/npm_and_yarn/npm_and_yarn-1ad2bacbea
-      vitest: dependabot/npm_and_yarn/npm_and_yarn-aa935e5de0 main main
+      vitest: dependabot/npm_and_yarn/npm_and_yarn-aa935e5de0 main main main
         specifier: ^4.0.0
         version: 4.0.18(@types/node@20.14.10)(jiti@2.4.2)(lightningcss@1.30.0)(tsx@4.19.4)(yaml@2.7.1)
         specifier: ^4.1.0
@@ -3378,7 +3402,7 @@ packages:
     resolution: {integrity: sha512-L+34Qqil+v5uC0zEubW7uByo78WOCIrBvci69E7sFASRl0X7b/MB6Cqd1lky/CtcSVTydWa2WZwFuWexjS5o6g==}
     cpu: [arm]
     os: [linux]
-
+ dependabot/npm_and_yarn/npm_and_yarn-5d09fa0434
   '@rollup/rollup-linux-arm-musleabihf@4.60.1':
     resolution: {integrity: sha512-n83O8rt4v34hgFzlkb1ycniJh7IR5RCIqt6mz1VRJD6pmhRi0CXdmfnLu9dIUS6buzh60IvACM842Ffb3xd6Gg==}
     cpu: [arm]
@@ -3437,7 +3461,7 @@ packages:
   '@rollup/rollup-linux-x64-musl@4.60.1':
     resolution: {integrity: sha512-5cIATbk5vynAjqqmyBjlciMJl1+R/CwX9oLk/EyiFXDWd95KpHdrOJT//rnUl4cUcskrd0jCCw3wpZnhIHdD9w==}
     cpu: [x64]
-    os: [linux] dependabot/npm_and_yarn/npm_and_yarn-aa935e5de main main
+    os: [linux] dependabot/npm_and_yarn/npm_and_yarn-aa935e5de main main main
   '@rollup/rollup-android-arm-eabi@4.60.1':
     resolution: {integrity: sha512-d6FinEBLdIiK+1uACUttJKfgZREXrF0Qc2SmLII7W2AD8FfiZ9Wjd+rD/iRuf5s5dWrr1GgwXCvPqOuDquOowA==}
     cpu: [arm]
@@ -3551,8 +3575,9 @@ packages:
   '@rollup/rollup-win32-ia32-msvc@4.60.1':
     resolution: {integrity: sha512-u09m3CuwLzShA0EYKMNiFgcjjzwqtUMLmuCJLeZWjjOYA3IT2Di09KaxGBTP9xVztWyIWjVdsB2E9goMjZvTQg==}
     cpu: [ia32]
-    os: [win32]
-
+    os: [win32] dependabot/npm_and_yarn/npm_and_yarn-5d09fa0434
+  '@rollup/rollup-win32-x64-gnu@4.60.1':
+    resolution: {integrity: sha512-k+600V9Zl1CM7eZxJgMyTUzmrmhB/0XZnF4pRypKAlAgxmedUA+1v9R+XOFv56W4SlHEzfeMtzujLJD22Uz5zg==}
   '@rollup/rollup-win32-x64-gnu@4.60.1': dependabot/npm_and_yarn/npm_and_yarn-1ad2bacbea
     resolution: {integrity: sha512-k+600V9Zl1CM7eZxJgMyTUzmrmhB/0XZnF4pRypKAlAgxmedUA+1v9R+XOFv56W4SlHEzfeMtzujLJD22Uz5zg==}
     resolution: {integrity: sha512-k+600V9Zl1CM7eZxJgMyTUzmrmhB/0XZnF4pRypKAlAgxmedUA+1v9R+XOFv56W4SlHEzfeMtzujLJD22Uz5zg==} dependabot/npm_and_yarn/npm_and_yarn-3bd2ba5a1b
@@ -3686,7 +3711,7 @@ packages:
     os: [linux]
 
   '@rollup/rollup-openbsd-x64@4.62.2':
-    resolution: {integrity: sha512-srjEIxSH3LRnJN6THczDHWQplqEMFiAJrTab0msUryh9kwNpkICf3Ea6q6MN/2cZwRFUNx5w+h6Hpi4QuHS6Zg==}
+    resolution: {integrity: sha512-srjEIxSH3LRnJN6THczDHWQplqEMFiAJrTab0msUryh9kwNpkICf3Ea6q6MN/2cZwRFUNx5w+h6Hpi4QuHS6Zg==} main
     cpu: [x64]
     os: [openbsd]
 
@@ -3698,8 +3723,9 @@ packages:
   '@rollup/rollup-win32-arm64-msvc@4.62.2':
     resolution: {integrity: sha512-mmF4AY1i0hG/bLWUctUq59gtmgaSIRa3cu/A3JFRp/sCNEme2bgDEiDS22P9FbnJB8NJNF4jPJiSP5RHQpUTDg==}
     cpu: [arm64]
-    os: [win32]
-
+    os: [win32] dependabot/npm_and_yarn/npm_and_yarn-5d09fa0434
+  '@rollup/rollup-win32-x64-msvc@4.60.1':
+    resolution: {integrity: sha512-lWMnixq/QzxyhTV6NjQJ4SFo1J6PvOX8vUx5Wb4bBPsEb+8xZ89Bz6kOXpfXj9ak9AHTQVQzlgzBEc1SyM27xQ==}
   '@rollup/rollup-win32-ia32-msvc@4.62.2':
     resolution: {integrity: sha512-DZgkknc6jhHrk46V25vbAM0zZkyP0nSDkJB8/dRkLTxv470dOmWDqGoEJl/9A0dFfS7yE3REOwNDxpHwSLSt0Q==}
     cpu: [ia32]
@@ -3714,7 +3740,7 @@ packages:
   '@rollup/rollup-win32-x64-msvc@4.62.2':
     resolution: {integrity: sha512-BfzEnDJOt9T8M989/lA37EcJgat01wLRnoi5dQf3QzOH7jzpqTAzdDbVfRljVr5r+jzKqpbHeyOfAaXxAd0PAA==}
   '@rollup/rollup-win32-x64-msvc@4.60.2':
-    resolution: {integrity: sha512-Nd/SgG27WoA9e+/TdK74KnHz852TLa94ovOYySo/yMPuTmpckK/jIF2jSwS3g7ELSKXK13/cVdmg1Z/DaCWKxA==} main main main main main
+    resolution: {integrity: sha512-Nd/SgG27WoA9e+/TdK74KnHz852TLa94ovOYySo/yMPuTmpckK/jIF2jSwS3g7ELSKXK13/cVdmg1Z/DaCWKxA==} main main main main main main
     cpu: [x64]
     os: [win32]
 
@@ -6502,6 +6528,10 @@ packages:
     resolution: {integrity: sha512-QP88BAKvMam/3NxH6vj2o21R6MjxZUAd6nlwAS/pnGvN9IVLocLHxGYIzFhg6fUQ+5th6P4dv4eW9jX3DSIj7A==}
     engines: {node: '>=12'}
 
+  picomatch@4.0.4:
+    resolution: {integrity: sha512-QP88BAKvMam/3NxH6vj2o21R6MjxZUAd6nlwAS/pnGvN9IVLocLHxGYIzFhg6fUQ+5th6P4dv4eW9jX3DSIj7A==}
+    engines: {node: '>=12'}
+
   pify@2.3.0:
     resolution: {integrity: sha512-udgsAY+fTnvv7kI7aaxbqwWNb0AHiB0qBO89PZKPkoTmGOgdbrHDKD+0B2X4uTfJ/FT1R09r9gTsjUjNJotuog==}
     engines: {node: '>=0.10.0'}
@@ -6566,14 +6596,14 @@ packages:
     engines: {node: ^10 || ^12 || >=14}
 
   postcss@8.5.9:
-    resolution: {integrity: sha512-7a70Nsot+EMX9fFU3064K/kdHWZqGVY+BADLyXc8Dfv+mTLLVl6JzJpPaCZ2kQL9gIJvKXSLMHhqdRRjwQeFtw==}
+    resolution: {integrity: sha512-7a70Nsot+EMX9fFU3064K/kdHWZqGVY+BADLyXc8Dfv+mTLLVl6JzJpPaCZ2kQL9gIJvKXSLMHhqdRRjwQeFtw==} dependabot/npm_and_yarn/npm_and_yarn-5d09fa0434
     engines: {node: ^10 || ^12 || >=14} dependabot/npm_and_yarn/npm_and_yarn-3bd2ba5a1b
   postcss@8.5.8:
     resolution: {integrity: sha512-OW/rX8O/jXnm82Ey1k44pObPtdblfiuWnrd8X7GJ7emImCOstunGbXUpp7HdBrFQX6rJzn3sPT397Wp5aCwCHg==}
   postcss@8.5.9:
     resolution: {integrity: sha512-7a70Nsot+EMX9fFU3064K/kdHWZqGVY+BADLyXc8Dfv+mTLLVl6JzJpPaCZ2kQL9gIJvKXSLMHhqdRRjwQeFtw==}
   postcss@8.5.15:
-    resolution: {integrity: sha512-FfR8sjd4em2T6fb3I2MwAJU7HWVMr9zba+enmQeeWFfCbm+UOC/0X4DS8XtpUTMwWMGbjKYP7xjfNekzyGmB3A==} main main main
+    resolution: {integrity: sha512-FfR8sjd4em2T6fb3I2MwAJU7HWVMr9zba+enmQeeWFfCbm+UOC/0X4DS8XtpUTMwWMGbjKYP7xjfNekzyGmB3A==} main main main main
     engines: {node: ^10 || ^12 || >=14}
 
   prelude-ls@1.2.1:
@@ -6894,8 +6924,9 @@ packages:
 
   reusify@1.0.4:
     resolution: {integrity: sha512-U9nH88a3fc/ekCF1l0/UP1IosiuIjyTh7hBvXVMHYgVcfGvt897Xguj2UOLDeI5BG2m7/uwyaLVT6fbtCwTyzw==} dependabot/npm_and_yarn/npm_and_yarn-aa935e5de0
-    engines: {iojs: '>=1.0.0', node: '>=0.10.0'}
-
+    engines: {iojs: '>=1.0.0', node: '>=0.10.0'} dependabot/npm_and_yarn/npm_and_yarn-5d09fa0434
+  rollup@4.60.1:
+    resolution: {integrity: sha512-VmtB2rFU/GroZ4oL8+ZqXgSA38O6GR8KSIvWmEFv63pQ0G6KaBH9s07PO8XTXP4vI+3UJUEypOfjkGfmSBBR0w==}
   rollup@4.60.1: dependabot/npm_and_yarn/npm_and_yarn-1ad2bacbea
     resolution: {integrity: sha512-VmtB2rFU/GroZ4oL8+ZqXgSA38O6GR8KSIvWmEFv63pQ0G6KaBH9s07PO8XTXP4vI+3UJUEypOfjkGfmSBBR0w==}
     resolution: {integrity: sha512-VmtB2rFU/GroZ4oL8+ZqXgSA38O6GR8KSIvWmEFv63pQ0G6KaBH9s07PO8XTXP4vI+3UJUEypOfjkGfmSBBR0w== dependabot/npm_and_yarn/npm_and_yarn-3bd2ba5a1
@@ -6907,7 +6938,7 @@ packages:
   rollup@4.60.1:
     resolution: {integrity: sha512-VmtB2rFU/GroZ4oL8+ZqXgSA38O6GR8KSIvWmEFv63pQ0G6KaBH9s07PO8XTXP4vI+3UJUEypOfjkGfmSBBR0w==}
   rollup@4.60.2:
-    resolution: {integrity: sha512-J9qZyW++QK/09NyN/zeO0dG/1GdGfyp9lV8ajHnRVLfo/uFsbji5mHnDgn/qYdUHyCkM2N+8VyspgZclfAh0eQ==} main main mai main main
+    resolution: {integrity: sha512-J9qZyW++QK/09NyN/zeO0dG/1GdGfyp9lV8ajHnRVLfo/uFsbji5mHnDgn/qYdUHyCkM2N+8VyspgZclfAh0eQ==} main main mai main main main
     engines: {node: '>=18.0.0', npm: '>=8.0.0'}
     hasBin: true
 
@@ -7447,13 +7478,14 @@ packages:
       vite: dependabot/npm_and_yarn/npm_and_yarn-3bd2ba5a1b
         optional: true
 
-  vite@7.3.2:
+  vite@7.3.2: dependabot/npm_and_yarn/npm_and_yarn-5d09fa0434
+    resolution: {integrity: sha512-Bby3NOsna2jsjfLVOHKes8sGwgl4TT0E6vvpYgnAYDIF/tie7MRaFthmKuHx1NSXjiTueXH3do80FMQgvEktRg==}
     resolution: {integrity: sha512-Bby3NOsna2jsjfLVOHKes8sGwgl4TT0E6vvpYgnAYDIF/tie7MRaFthmKuHx1NSXjiTueXH3do80FMQgvEktRg==} dependabot/npm_and_yarn/npm_and_yarn-1ad2bacbea
         optional: true dependabot/npm_and_yarn/npm_and_yarn-aa935e5de0
   vite@7.3.2:
     resolution: {integrity: sha512-Bby3NOsna2jsjfLVOHKes8sGwgl4TT0E6vvpYgnAYDIF/tie7MRaFthmKuHx1NSXjiTueXH3do80FMQgvEktRg==}
   vite@7.3.5:
-    resolution: {integrity: sha512-KuOaNhcnGFN2zIPGA7wRmzF+lJA1sea7rHq17aiJ++9lzY1WWG6Jpwqwe1KNbRVPIqHmr8GLYx7jbrQcN/7/ww==} main main main
+    resolution: {integrity: sha512-KuOaNhcnGFN2zIPGA7wRmzF+lJA1sea7rHq17aiJ++9lzY1WWG6Jpwqwe1KNbRVPIqHmr8GLYx7jbrQcN/7/ww==} main main main main
     engines: {node: ^20.19.0 || >=22.12.0}
     hasBin: true
     peerDependencies:
@@ -12112,8 +12144,80 @@ snapshots:
 
   '@rollup/rollup-win32-x64-msvc@4.60.1':
   '@rollup/rollup-openharmony-arm64@4.60.1':
+    optional: true dependabot/npm_and_yarn/npm_and_yarn-5d09fa0434
+  '@rollup/rollup-android-arm-eabi@4.60.1':
     optional: true
 
+  '@rollup/rollup-android-arm64@4.60.1':
+    optional: true
+
+  '@rollup/rollup-darwin-arm64@4.60.1':
+    optional: true
+
+  '@rollup/rollup-darwin-x64@4.60.1':
+    optional: true
+
+  '@rollup/rollup-freebsd-arm64@4.60.1':
+    optional: true
+
+  '@rollup/rollup-freebsd-x64@4.60.1':
+    optional: true
+
+  '@rollup/rollup-linux-arm-gnueabihf@4.60.1':
+    optional: true
+
+  '@rollup/rollup-linux-arm-musleabihf@4.60.1':
+    optional: true
+
+  '@rollup/rollup-linux-arm64-gnu@4.60.1':
+    optional: true
+
+  '@rollup/rollup-linux-arm64-musl@4.60.1':
+    optional: true
+
+  '@rollup/rollup-linux-loong64-gnu@4.60.1':
+    optional: true
+
+  '@rollup/rollup-linux-loong64-musl@4.60.1':
+    optional: true
+
+  '@rollup/rollup-linux-ppc64-gnu@4.60.1':
+    optional: true
+
+  '@rollup/rollup-linux-ppc64-musl@4.60.1':
+    optional: true
+
+  '@rollup/rollup-linux-riscv64-gnu@4.60.1':
+    optional: true
+
+  '@rollup/rollup-linux-riscv64-musl@4.60.1':
+    optional: true
+
+  '@rollup/rollup-linux-s390x-gnu@4.60.1':
+    optional: true
+
+  '@rollup/rollup-linux-x64-gnu@4.60.1':
+    optional: true
+
+  '@rollup/rollup-linux-x64-musl@4.60.1':
+    optional: true
+
+  '@rollup/rollup-openbsd-x64@4.60.1':
+    optional: true
+
+  '@rollup/rollup-openharmony-arm64@4.60.1':
+    optional: true
+
+  '@rollup/rollup-win32-arm64-msvc@4.60.1':
+    optional: true
+
+  '@rollup/rollup-win32-ia32-msvc@4.60.1':
+    optional: true
+
+  '@rollup/rollup-win32-x64-gnu@4.60.1':
+    optional: true
+
+  '@rollup/rollup-win32-x64-msvc@4.60.1':
   '@rollup/rollup-win32-arm64-msvc@4.60.1':
     optional: true
 
@@ -12196,7 +12300,7 @@ snapshots:
   '@rollup/rollup-win32-x64-gnu@4.62.2':
     optional: true dependabot/npm_and_yarn/npm_and_yarn-3541e1c115
   '@rollup/rollup-win32-x64-msvc@4.62.2':
-  '@rollup/rollup-win32-x64-msvc@4.60.2': main main main main main
+  '@rollup/rollup-win32-x64-msvc@4.60.2': main main main main main main
     optional: true
 
   '@rtsao/scc@1.1.0': {}
@@ -12893,8 +12997,15 @@ snapshots:
       '@swc/core': 1.11.24(@swc/helpers@0.5.17)
       vite: 7.3.2(@types/node@20.17.46)(jiti@2.4.2)(lightningcss@1.30.0)(tsx@4.19.4)(yaml@2.7.1)
     transitivePeerDependencies:
+      - '@swc/helpers' dependabot/npm_and_yarn/npm_and_yarn-5d09fa0434
+  '@vitejs/plugin-react-swc@3.9.0(@swc/helpers@0.5.17)(vite@7.3.2(@types/node@20.17.46)(jiti@2.4.2)(lightningcss@1.30.0)(tsx@4.19.4)(yaml@2.7.1))':
+    dependencies:
+      '@swc/core': 1.11.24(@swc/helpers@0.5.17)
+      vite: 7.3.2(@types/node@20.17.46)(jiti@2.4.2)(lightningcss@1.30.0)(tsx@4.19.4)(yaml@2.7.1)
+    transitivePeerDependencies:
       - '@swc/helpers'
 
+  '@vitejs/plugin-react@4.4.1(vite@7.3.2(@types/node@20.17.46)(jiti@2.4.2)(lightningcss@1.30.0)(tsx@4.19.4)(yaml@2.7.1))':
   '@vitejs/plugin-react@4.4.1(vite@7.3.2(@types/node@20.17.46)(jiti@2.4.2)(lightningcss@1.30.0)(tsx@4.19.4)(yaml@2.7.1))':
   '@vitejs/plugin-react@4.4.1(vite@7.3.2(@types/node@20.17.46)(jiti@2.4.2)(lightningcss@1.30.0)(tsx@4.19.4)(yaml@2.7.1))':
   '@vitejs/plugin-react@4.4.1(vite@7.3.2(@types/node@20.17.46)(jiti@2.4.2)(lightningcss@1.30.0)(tsx@4.19.4)(yaml@2.7.1))':
@@ -12905,25 +13016,40 @@ snapshots:
     transitivePeerDependencies:
       - '@swc/helpers'
 
-  '@vitejs/plugin-react@4.4.1(vite@7.3.5(@types/node@20.17.46)(jiti@2.4.2)(lightningcss@1.30.0)(tsx@4.19.4)(yaml@2.7.1))': main main main
+  '@vitejs/plugin-react@4.4.1(vite@7.3.5(@types/node@20.17.46)(jiti@2.4.2)(lightningcss@1.30.0)(tsx@4.19.4)(yaml@2.7.1))': main main main main
     dependencies:
       '@babel/core': 7.27.1
       '@babel/plugin-transform-react-jsx-self': 7.27.1(@babel/core@7.27.1)
-      '@babel/plugin-transform-react-jsx-source': 7.27.1(@babel/core@7.27.1)
+      '@babel/plugin-transform-react-jsx-source': 7.27.1(@babel/core@7.27.1) dependabot/npm_and_yarn/npm_and_yarn-5d09fa0434
+      '@types/babel__core': 7.20.5
+      react-refresh: 0.17.0
+      vite: 7.3.2(@types/node@20.17.46)(jiti@2.4.2)(lightningcss@1.30.0)(tsx@4.19.4)(yaml@2.7.1)
       '@types/babel__core': 7.20.5 dependabot/npm_and_yarn/npm_and_yarn-3bd2ba5a1b
       react-refresh: 0.17.0 dependabot/npm_and_yarn/npm_and_yarn-1ad2bacbea
       vite: 7.3.2(@types/node@20.17.46)(jiti@2.4.2)(lightningcss@1.30.0)(tsx@4.19.4)(yaml@2.7.1)
       vite: 7.3.2(@types/node@20.17.46)(jiti@2.4.2)(lightningcss@1.30.0)(tsx@4.19.4)(yaml@2.7.1
       react-refresh: 0.17.0 dependabot/npm_and_yarn/npm_and_yarn-aa935e5de0
       vite: 7.3.2(@types/node@20.17.46)(jiti@2.4.2)(lightningcss@1.30.0)(tsx@4.19.4)(yaml@2.7.1)
-      vite: 7.3.5(@types/node@20.17.46)(jiti@2.4.2)(lightningcss@1.30.0)(tsx@4.19.4)(yaml@2.7.1) ma main main
+      vite: 7.3.5(@types/node@20.17.46)(jiti@2.4.2)(lightningcss@1.30.0)(tsx@4.19.4)(yaml@2.7.1) ma main main main
     transitivePeerDependencies:
       - supports-color
 
   '@vitest/expect@4.1.0':
     dependencies:
       '@standard-schema/spec': 1.1.0
-      '@types/chai': 5.2.3
+      '@types/chai': 5.2.3 dependabot/npm_and_yarn/npm_and_yarn-5d09fa0434
+      '@vitest/spy': 4.0.18
+      '@vitest/utils': 4.0.18
+      chai: 6.2.2
+      tinyrainbow: 3.0.3
+
+  '@vitest/mocker@4.0.18(vite@7.3.2(@types/node@20.14.10)(jiti@2.4.2)(lightningcss@1.30.0)(tsx@4.19.4)(yaml@2.7.1))':
+    dependencies:
+      '@vitest/spy': 4.0.18
+      estree-walker: 3.0.3
+      magic-string: 0.30.21
+    optionalDependencies:
+      vite: 7.3.2(@types/node@20.14.10)(jiti@2.4.2)(lightningcss@1.30.0)(tsx@4.19.4)(yaml@2.7.1)
       '@vitest/spy': 4.1.0
       '@vitest/utils': 4.1.0
       chai: 6.2. dependabot/npm_and_yarn/npm_and_yarn-3bd2ba5a1b
@@ -12942,7 +13068,7 @@ snapshots:
       vite: 7.3.2(@types/node@20.14.10)(jiti@2.4.2)(lightningcss@1.30.0)(tsx@4.19.4)(yaml@2.7.1
     optionalDependencies: dependabot/npm_and_yarn/npm_and_yarn-aa935e5de0
       vite: 7.3.2(@types/node@20.14.10)(jiti@2.4.2)(lightningcss@1.30.0)(tsx@4.19.4)(yaml@2.7.1)
-      vite: 7.3.5(@types/node@20.14.10)(jiti@2.4.2)(lightningcss@1.30.0)(tsx@4.19.4)(yaml@2.7.1) main main main
+      vite: 7.3.5(@types/node@20.14.10)(jiti@2.4.2)(lightningcss@1.30.0)(tsx@4.19.4)(yaml@2.7.1) main main main main
 
   '@vitest/pretty-format@4.1.0':
     dependencies:
@@ -15338,9 +15464,11 @@ snapshots:
 
   picocolors@1.1.1: {} dependabot/npm_and_yarn/npm_and_yarn-1ad2bacbea
   picomatch@2.3.2: {}
-  picomatch@2.3.2: {} dependabot/npm_and_yarn/npm_and_yarn-3bd2ba5a1b
+  picomatch@2.3.2: {} dependabot/npm_and_yarn/npm_and_yarn-3bd2ba5a1b dependabot/npm_and_yarn/npm_and_yarn-5d09fa0434
+  picomatch@2.3.2: {}
+  picomatch@4.0.4: {} main main main
 
-  picomatch@4.0.4: {} main main
+  picomatch@4.0.4: {}
 
   picomatch@4.0.4: {}
 
@@ -15405,11 +15533,11 @@ snapshots:
       picocolors: 1.1.1 dependabot/npm_and_yarn/npm_and_yarn-1ad2bacbea
       source-map-js: 1.2.1
 
-  postcss@8.5.9:
+  postcss@8.5.9: dependabot/npm_and_yarn/npm_and_yarn-5d09fa0434
       source-map-js: 1.2.1 dependabot/npm_and_yarn/npm_and_yarn-3bd2ba5a1b
   postcss@8.5.8:
   postcss@8.5.9:
-  postcss@8.5.15: main main main
+  postcss@8.5.15: main main main main
     dependencies:
       nanoid: 3.3.14
       picocolors: 1.1.1
@@ -15813,8 +15941,8 @@ snapshots:
     dependencies: dependabot/npm_and_yarn/npm_and_yarn-3bd2ba5a1b
       lowercase-keys: 3.0.0
 
-  reusify@1.0.4: {}
-
+  reusify@1.0.4: {} dependabot/npm_and_yarn/npm_and_yarn-5d09fa0434
+  rollup@4.60.1:
   rollup@4.60.1: dependabot/npm_and_yarn/npm_and_yarn-1ad2bacbea
     dependencies:
       '@types/estree': 1.0.8
@@ -15843,7 +15971,7 @@ snapshots:
       '@rollup/rollup-win32-arm64-msvc': 4.60.1
       '@rollup/rollup-win32-ia32-msvc': 4.60.1
       '@rollup/rollup-win32-x64-gnu': 4.60.1
-      '@rollup/rollup-win32-x64-msvc': 4.60
+      '@rollup/rollup-win32-x64-msvc': 4.60 main
     dependencies:
       '@types/estree': 1.0.8
     optionalDependencies:
@@ -15871,7 +15999,7 @@ snapshots:
       '@rollup/rollup-win32-arm64-msvc': 4.60.1
       '@rollup/rollup-win32-ia32-msvc': 4.60.1
       '@rollup/rollup-win32-x64-gnu': 4.60.1
-      '@rollup/rollup-win32-x64-msvc': 4.60.1
+      '@rollup/rollup-win32-x64-msvc': 4.60.1 dependabot/npm_and_yarn/npm_and_yarn-5d09fa0434
       lowercase-keys: 3.0.0 dependabot/npm_and_yarn/npm_and_yarn-3541e1c115
   reusify@1.0.4: {} dependabot/npm_and_yarn/npm_and_yarn-aa935e5de0
   rollup@4.60.1:
@@ -15990,7 +16118,7 @@ snapshots:
       '@rollup/rollup-win32-arm64-msvc': 4.60.2
       '@rollup/rollup-win32-ia32-msvc': 4.60.2
       '@rollup/rollup-win32-x64-gnu': 4.60.2
-      '@rollup/rollup-win32-x64-msvc': 4.60.2 main main main main main
+      '@rollup/rollup-win32-x64-msvc': 4.60.2 main main main main main main
       fsevents: 2.3.3
 
   router@2.2.0:
@@ -16710,12 +16838,12 @@ snapshots:
   validate-npm-package-name@3.0.0:
     dependencies:
       builtins: 1.0.3 dependabot/npm_and_yarn/npm_and_yarn-3bd2ba5a1b
-  vary@1.1.2: {}
-
+  vary@1.1.2: {} dependabot/npm_and_yarn/npm_and_yarn-5d09fa0434
+  vite-tsconfig-paths@4.3.2(typescript@5.8.3)(vite@7.3.2(@types/node@20.17.46)(jiti@2.4.2)(lightningcss@1.30.0)(tsx@4.19.4)(yaml@2.7.1)):
   vite-tsconfig-paths@4.3.2(typescript@5.8.3)(vite@7.3.2(@types/node@20.17.46)(jiti@2.4.2)(lightningcss@1.30.0)(tsx@4.19.4)(yaml@2.7.1)): dependabot/npm_and_yarn/npm_and_yarn-1ad2bacbea
   vary@1.1.2: {} dependabot/npm_and_yarn/npm_and_yarn-aa935e5de0
   vite-tsconfig-paths@4.3.2(typescript@5.8.3)(vite@7.3.2(@types/node@20.17.46)(jiti@2.4.2)(lightningcss@1.30.0)(tsx@4.19.4)(yaml@2.7.1)):
-  vite-tsconfig-paths@4.3.2(typescript@5.8.3)(vite@7.3.5(@types/node@20.17.46)(jiti@2.4.2)(lightningcss@1.30.0)(tsx@4.19.4)(yaml@2.7.1)): main main main
+  vite-tsconfig-paths@4.3.2(typescript@5.8.3)(vite@7.3.5(@types/node@20.17.46)(jiti@2.4.2)(lightningcss@1.30.0)(tsx@4.19.4)(yaml@2.7.1)): main main main main
     dependencies:
       debug: 4.4.0
       globrex: 0.1.2
@@ -16723,7 +16851,15 @@ snapshots:
     optionalDependencies:
       vite: 7.3.2(@types/node@20.17.46)(jiti@2.4.2)(lightningcss@1.30.0)(tsx@4.19.4)(yaml@2.7.1)
     transitivePeerDependencies:
-      - supports-color
+      - supports-color dependabot/npm_and_yarn/npm_and_yarn-5d09fa0434
+      - typescript
+
+  vite@7.3.2(@types/node@20.14.10)(jiti@2.4.2)(lightningcss@1.30.0)(tsx@4.19.4)(yaml@2.7.1):
+    dependencies:
+      esbuild: 0.27.7
+      fdir: 6.5.0(picomatch@4.0.4)
+      picomatch: 4.0.4
+      postcss: 8.5.9
       - typescript dependabot/npm_and_yarn/npm_and_yarn-1ad2bacbea
     optionalDependencies dependabot/npm_and_yarn/npm_and_yarn-aa935e5de0
       vite: 7.3.2(@types/node@20.17.46)(jiti@2.4.2)(lightningcss@1.30.0)(tsx@4.19.4)(yaml@2.7.
@@ -16739,7 +16875,7 @@ snapshots:
       postcss: 8.5
       picomatch: 4.0 dependabot/npm_and_yarn/npm_and_yarn-3bd2ba5a1b
       postcss: 8.5.8
-      postcss: 8.5. main main
+      postcss: 8.5. main main main
       rollup: 4.60.1
       tinyglobby: 0.2.15
   vite@7.3.5(@types/node@20.14.10)(jiti@2.4.2)(lightningcss@1.30.0)(tsx@4.19.4)(yaml@2.7.1):
@@ -16758,7 +16894,16 @@ snapshots:
       '@types/node': 20.14.10
       fsevents: 2.3.3
       jiti: 2.4.2
-      lightningcss: 1.30.0
+      lightningcss: 1.30.0 dependabot/npm_and_yarn/npm_and_yarn-5d09fa0434
+      tsx: 4.19.4
+      yaml: 2.7.1
+
+  vite@7.3.2(@types/node@20.17.46)(jiti@2.4.2)(lightningcss@1.30.0)(tsx@4.19.4)(yaml@2.7.1):
+    dependencies:
+      esbuild: 0.27.7
+      fdir: 6.5.0(picomatch@4.0.4)
+      picomatch: 4.0.4
+      postcss: 8.5.9
       tsx: 4.19.4 dependabot/npm_and_yarn/npm_and_yarn-3bd2ba5a1b
       yaml: 2.7.1 dependabot/npm_and_yarn/npm_and_yarn-1ad2bacbea
       yaml: 2.7.1 dependabot/npm_and_yarn/npm_and_yarn-aa935e5de mai main
@@ -16770,7 +16915,7 @@ snapshots:
       postcss: 8.5.9
       picomatch: 4.0. dependabot/npm_and_yarn/npm_and_yarn-3bd2ba5a1b
       postcss: 8.5.
-      postcss: 8.5. main main
+      postcss: 8.5. main main main
       rollup: 4.60.1
       tinyglobby: 0.2.15
   vite@7.3.5(@types/node@20.17.46)(jiti@2.4.2)(lightningcss@1.30.0)(tsx@4.19.4)(yaml@2.7.1):
@@ -16819,14 +16964,16 @@ snapshots:
       std-env: 4.1.0
       tinybench: 2.9.0 dependabot/npm_and_yarn/npm_and_yarn-aa935e5de0
       tinyexec: 1.0.2
-      tinyglobby: 0.2.15
+      tinyglobby: 0.2.15 dependabot/npm_and_yarn/npm_and_yarn-5d09fa0434
+      tinyrainbow: 3.0.3
+      vite: 7.3.2(@types/node@20.14.10)(jiti@2.4.2)(lightningcss@1.30.0)(tsx@4.19.4)(yaml@2.7.1)
       tinyrainbow: 3.0.3 dependabot/npm_and_yarn/npm_and_yarn-1ad2bacbea
       vite: 7.3.2(@types/node@20.14.10)(jiti@2.4.2)(lightningcss@1.30.0)(tsx@4.19.4)(yaml@2.7.1)
       vite: 7.3.2(@types/node@20.14.10)(jiti@2.4.2)(lightningcss@1.30.0)(tsx@4.19.4)(yaml@2.7.1) dependabot/npm_and_yarn/npm_and_yarn-3bd2ba5a1b
       tinyexec: 1.2.4
       tinyglobby: 0.2.17
       tinyrainbow: 3.1.0
-      vite: 7.3.5(@types/node@20.14.10)(jiti@2.4.2)(lightningcss@1.30.0)(tsx@4.19.4)(yaml@2.7.1) main main main
+      vite: 7.3.5(@types/node@20.14.10)(jiti@2.4.2)(lightningcss@1.30.0)(tsx@4.19.4)(yaml@2.7.1) main main main main
       why-is-node-running: 2.3.0
     optionalDependencies:
       '@types/node': 20.14.10

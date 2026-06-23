@@ -35,10 +35,11 @@
 		"autoprefixer": "^10.4.21",
 		"postcss": "^8.5.10",
 		"tailwindcss": "^3.4.17", dependabot/npm_and_yarn/npm_and_yarn-3bd2ba5a1b
-		"typescript": "^5.5.3",
+		"typescript": "^5.5.3", dependabot/npm_and_yarn/npm_and_yarn-5d09fa0434
+		"vite": "^7.3.2"
 		"vite": "^7.3.2" dependabot/npm_and_yarn/npm_and_yarn-1ad2bacbea
 		"typescript": "^5.5.3", dependabot/npm_and_yarn/npm_and_yarn-aa935e5de0
 		"vite": "^7.3.2"
-		"vite": "^7.3.5" main main main
+		"vite": "^7.3.5" main main main main
 	}
 }
