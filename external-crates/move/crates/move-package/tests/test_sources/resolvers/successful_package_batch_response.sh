@@ -46,4 +46,4 @@ EOF
 )
 
 # Echo the two separate graph contents twice with a null separator in between
-printf "$foo\0$bar"
+printf '%s\0%s' "$foo" "$bar"
